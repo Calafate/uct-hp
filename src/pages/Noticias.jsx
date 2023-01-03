@@ -3,7 +3,7 @@ import Menu from '../components/Menu';
 import Blog from '../components/Blog';
 
 
-function Publicaciones() {
+function Noticias() {
   return (
     <div>
       <Menu />
@@ -12,4 +12,4 @@ function Publicaciones() {
   )
 }
 
-export default Publicaciones
+export default Noticias

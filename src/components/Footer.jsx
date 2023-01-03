@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import logoUCTHP from '../img/logo-UCT-HP.png';
+import logoSAMIC from '../img/logo-SAMIC.png';
 
 function Footer() {
   return (
     <div className="container-fluid pt-3" style={{ backgroundColor: "var(--main-color)" }}>
         <div className="row p-3">
             <div className="col-xs-12 col-md-6 col-lg-4">
-                <div className="p-3">
-                    <img src="logo.png" alt="logo" />
+                <div className="p-3 d-flex justify-content-evenly">
+                    <img src={logoUCTHP} alt="logo-UCT" style={{width: "150px"}} />
+                    <img src={logoSAMIC} alt="logo-SAMIC" style={{width: "150px"}} />
                 </div>
-                <p className="h3">UCT HP</p>
+                {/* <p className="h3">UCT HP</p> */}
                 <p>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</p>
                 <p>Hospital de Alta Complejidad de El Calafate SAMIC</p>
             </div>

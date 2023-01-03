@@ -23,7 +23,9 @@ function Contacto() {
             </iframe>
           </div>
           <div className = 'col-md-12 col-lg-6 text-start'>
-            <h4>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</h4>
+            <h4>Unidad de Conocimiento Traslacional</h4>
+            <h4>Hospitalaria Patagónica</h4>
+            <hr />
             <h5>Avda. Jorge Newbery 453 - El Calafate - Santa Cruz</h5>
             <h5>+54 2902 491831 int 2244</h5>
             <h5>Consultas: secretaria.ucthp@gmail.com</h5>

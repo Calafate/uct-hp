@@ -29,7 +29,7 @@ function Blog() {
         <div className="container">
             <div className='title'>
                 <h2>
-                    Buscar <span>Publicaciones</span> 
+                    Buscar <span>Noticias</span> 
                 </h2>
                     
             </div>

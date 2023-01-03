@@ -4,14 +4,14 @@ import "../styles/mision.css";
 
 function Mision() {
   return (
-    <div class="container m-5">
-      <div class="row">
-        <div class="col-md-12 col-lg-3">
-          <div class="accordion accordion-flush" id="accordion1">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
+    <div className="m-5">
+      <div className="row">
+        <div className="col-md-12 col-lg-3">
+          <div className="accordion accordion-flush" id="accordion1">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingOne">
                 <button
-                  class="accordion-button"
+                  className="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
@@ -19,15 +19,15 @@ function Mision() {
                   aria-controls="collapseOne"
                 >
                   <h5>Misión</h5>
-                </button>
+                </button> <hr className="hr"/>
               </h2>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordion1"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Desarrollar un área hospitalaria especializada en
                   investigación traslacional y diagnóstico en virología e
                   inmunología, oncología molecular, genética molecular humana y
@@ -40,12 +40,12 @@ function Mision() {
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-3">
-          <div class="accordion accordion-flush" id="accordion2">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
+        <div className="col-md-12 col-lg-3">
+          <div className="accordion accordion-flush" id="accordion2">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
@@ -53,15 +53,15 @@ function Mision() {
                   aria-controls="collapseTwo"
                 >
                   <h5>Visión</h5>
-                </button>
+                </button> <hr className="hr"/>
               </h2>
               <div
                 id="collapseTwo"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="headingTwo"
                 data-bs-parent="#accordion2"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Constituir un centro de alta complejidad con un enfoque local,
                   provincial y regional con nuevos enfoques en investigación
                   traslacional para garantizar la calidad en la asistencia de
@@ -71,12 +71,12 @@ function Mision() {
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-6">
-          <div class="accordion accordion-flush" id="accordion3">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
+        <div className="col-md-12 col-lg-6">
+          <div className="accordion accordion-flush" id="accordion3">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingThree">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
@@ -84,15 +84,15 @@ function Mision() {
                   aria-controls="collapseThree"
                 >
                   <h5>Objetivos</h5>
-                </button>
+                </button> <hr className="hr"/>
               </h2>
               <div
                 id="collapseThree"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="headingThree"
                 data-bs-parent="#accordionID"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   <p>
                     Promover la investigación traslacional generando líneas de
                     investigación que deriven en el desarrollo de nuevos

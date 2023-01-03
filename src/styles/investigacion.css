@@ -1,7 +1,12 @@
 .item-inv{
+    margin-bottom: 30px;
     padding: 20px;
-    background-color: rgb(183, 224, 227);
+    /* background-color: rgb(183, 224, 227); */
+    background-color: rgba(77, 208, 225, 0.3);
     display: flex;
+}
+.text-inv{
+    padding-left: 30px;
 }
 /* .img-inv{
     width: 350px;

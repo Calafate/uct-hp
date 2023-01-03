@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import TopMenu from '../components/TopMenu';
+import logoUCT from '../img/logo-UCT-HP-menu.png'
 
 function Menu() {
   
@@ -14,7 +15,7 @@ function Menu() {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          UCT-HP
+          <img src={logoUCT} alt="logo-UCT" style={{width: "150px"}}/>
         </a>
         <button
           className="navbar-toggler"
@@ -40,8 +41,8 @@ function Menu() {
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Publicaciones" className="nav-link">
-                Publicaciones
+              <NavLink to = "/Noticias" className="nav-link">
+                Noticias
               </NavLink>
             </li>
             <li className="nav-item fs-5">
