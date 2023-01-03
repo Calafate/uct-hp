@@ -1,0 +1,13 @@
+.accordion-body{
+    font-size: 16px;
+}
+.accordion-button{
+    background-color: var(--main-color) !important;
+    color: black !important;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+.accordion-body{
+    text-align: start;
+}

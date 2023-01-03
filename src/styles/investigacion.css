@@ -1,0 +1,13 @@
+.item-inv{
+    padding: 20px;
+    background-color: rgb(183, 224, 227);
+    display: flex;
+}
+/* .img-inv{
+    width: 350px;
+    height: 350px;
+    background-color: antiquewhite;
+} */
+.img-inv img{
+    width: 100px;
+}

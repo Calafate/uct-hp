@@ -1,17 +1,16 @@
-import React from 'react'
-import Menu from '../components/Menu'
-import samic1 from '../img/samic1.jpg'
+import React from "react";
+import Directivos from "../components/Directivos";
+import Menu from "../components/Menu";
+import Mision from "../components/Mision";
 
 function Institucional() {
   return (
     <div>
       <Menu />
-      Institucional
-      <div>
-        <img src={samic1} alt="hospital" />
-      </div>
+      <Mision />
+      <Directivos />
     </div>
-  )
+  );
 }
 
-export default Institucional
+export default Institucional;

@@ -9,8 +9,8 @@ function Footer() {
                     <img src="logo.png" alt="logo" />
                 </div>
                 <p className="h3">UCT HP</p>
-                <p>Unidad de Conocimiento Traslacional Hospitalaria de la Patagonia</p>
-                <p>Hospital SAMIC El Calafate</p>
+                <p>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</p>
+                <p>Hospital de Alta Complejidad de El Calafate SAMIC</p>
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <p className="h5">Sobre Nosotros...</p>

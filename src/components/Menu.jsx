@@ -7,7 +7,7 @@ function Menu() {
   return (
     <>
       <TopMenu />
-      <h2 className="m-3">Unidad de Conocimiento Traslacional Hospitalaria de la Patagonia</h2>
+      <h2 className="m-3">Unidad de Conocimiento Traslacional Hospitalaria Patagónica</h2>
     <nav
       className="navbar sticky-top navbar-expand-lg navbar-light mb-3"
       style={{ backgroundColor: "var(--main-color)" }}
@@ -29,32 +29,32 @@ function Menu() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Home" className="nav-link">
                 Inicio
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Institucional" className="nav-link">
                 Institucional
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Publicaciones" className="nav-link">
                 Publicaciones
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Investigacion" className="nav-link">
                 Investigación
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Diagnosticos" className="nav-link">
                 Diagnósticos
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-5">
               <NavLink to = "/Contacto" className="nav-link">
                 Contacto
               </NavLink>

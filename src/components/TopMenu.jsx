@@ -12,13 +12,13 @@ const divbgColor={
     <div className="container-fluid p-2" style={divbgColor}> 
       <div className="row d-flex justify-content-evenly">
         <div className="col">
-          <h6 style={divh6}>redes sociales</h6>
+          <h6 style={divh6}>www.hospitalelcalafate.gob.ar</h6>
         </div>
         <div className="col">
-          <h6 style={divh6}>(02902) 491-831 int. 40015</h6>
+          <h6 style={divh6}>+54 2902 491831 int 2244</h6>
         </div>
         <div className="col">
-          <h6 style={divh6}>mail@dominio.com</h6>
+          <h6 style={divh6}>secretaria.ucthp@gmail.com</h6>
         </div>
       </div>
     </div>
