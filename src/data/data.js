@@ -1,22 +1,21 @@
 const data = [
 	{
 		id: 1,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fvanilla-extract-with-next-themes%2Fimage.png&w=1080&q=75',
-		title: 'Using Vanilla Extract with next-themes',
-		category: 'Javascript',
-		description: 'How to apply vanilla extract themes to Next.js apps',
-		date: 'Dec 17, 2021',
+		image: '24-08-22.jpeg',
+		title: 'Acto de firma de adjudicacion',
+		category: 'eventos',
+		description: 'La ministra de Salud de la Nación, Carla Vizzotti, y su par de Ciencia, Tecnología e Innovación, Daniel Filmus, participaron hoy en el Hospital Nacional en Red “Lic. Laura Bonaparte” del acto de firma de adjudicaciones para los nueve hospitales que aplicaron a la convocatoria a Proyectos de innovación científico tecnológica para Unidades de Conocimiento Traslacional Hospitalarias (PICTO UCTH).',
+		date: '24/08/2022',
 	},
 	{
 		id: 2,
 		image:
 			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fradix-ui-styling-with-css%2Fimage.png&w=1080&q=75',
-		title: 'Styling Radix UI with CSS',
-		category: 'CSS',
+		title: 'La UCT participó en el Congreso Europeo de Genética Humana',
+		category: 'congresos',
 		description:
-			'Quick tip for styling Radix Primitives with plain CSS, CSS Modules, Vanilla Extract and more',
-		date: 'Dec 14, 2021',
+			'El equipo de la UCTHP – Unidad de Conocimiento Traslacional Hospitalaria Patagónica – presentó trabajos en el Congreso Europeo de Genética Humana relacionados a temas de diagnóstico e investigación en enfermedades cardiacas genéticas relacionadas a muerte súbita e Hipoacusias genéticas.',
+		date: '02/09/2021',
 	},
 	{
 		id: 3,
