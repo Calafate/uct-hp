@@ -3,7 +3,6 @@ import ArticleList from '../components/ArticleList';
 import ButtonList from '../components/ButtonList';
 import data from '../data/data';
 import '../styles/blog.css'
-import Sidebar from './Sidebar';
 
 
 function Blog() {
@@ -27,17 +26,16 @@ function Blog() {
 	}
 
     return (
-        <div className="container blog">
-            <div className="blogLeft">
-                <ArticleList articles={articles}/>
-            </div>
-            <div className='title blogright'>
+        <div className="container">
+            <div className='title'>
                 <h2>
                     Buscar <span>Noticias</span> 
                 </h2>
-                <Sidebar />    
+                    
             </div>
-            
+
+            <ButtonList categories={categories} filterCategory={filterCategory}/>
+            <ArticleList articles={articles}/>
         </div>
     )
 }
