@@ -1,17 +1,64 @@
-import React from 'react'
-import Menu from '../components/Menu'
+import React from 'react';
+import Menu from '../components/Menu';
+import Footer from '../components/Footer';
 import '../styles/investigacion.css';
+import '../styles/investigacion.css';
+import homero from '../img/homero.png';
+import milhouse from '../img/milhouse.png';
+import marge from '../img/marge.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faViruses, faDna, faHeartPulse, faPeopleArrows, faFlaskVial } from '@fortawesome/free-solid-svg-icons';
+import { faViruses, faDna, faHeartPulse, faPeopleArrows, faFlaskVial, faBook } from '@fortawesome/free-solid-svg-icons';
 
 function Investigacion() {
+  const styleCard={
+    width: "250px"
+  }
+
   return (
     <div>
       <Menu />
       <div className="m-5">
+        <h2 className="text-center">Investigadores responsables</h2>
+        <hr/>
+        <div className="container mb-5">
+          <div className="row gap-3 d-flex justify-content-around">
+            <div className="col">
+              <div class="card m-auto" style={styleCard}>
+                <img class="card-img-top mx-auto mt-2" src={milhouse} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div class="card-body">
+                  <h5 class="card-title">Bruque Carlos David</h5>
+                  <p class="card-text">Representante de investigadores</p>
+                  <a href="">
+                  <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div class="card m-auto" style={styleCard}>
+                <img class="card-img-top mx-auto mt-2" src={homero} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div class="card-body">
+                  <h5 class="card-title">Corró Guillermo</h5>
+                  <p class="card-text">Representante de investigadores</p>
+                  <a href=""><FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" /></a>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div class="card m-auto" style={styleCard}>
+                <img class="card-img-top mx-auto mt-2" src={marge} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div class="card-body">
+                  <h5 class="card-title"> Salgado Maria Victoria</h5>
+                  <p class="card-text">Representante de investigadores</p>
+                  <a href=""> <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <h2 className="text-center">Líneas de Investigación</h2>
         <hr/>
-        <div>
+        <div className="container">
           <div className="item-inv">
             <div className="img-inv">
               <FontAwesomeIcon icon={faHeartPulse} size="5x" color="#4DD0E1" />
@@ -59,7 +106,7 @@ function Investigacion() {
           </div>
         </div>
       </div>
-      
+      <Footer />
     </div>
   )
 }

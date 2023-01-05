@@ -32,7 +32,7 @@ function Menu() {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
             <li className="nav-item fs-5">
               <NavLink to = "/Home" className="nav-link">
-                Inicio
+                Home
               </NavLink>
             </li>
             <li className="nav-item fs-5">
@@ -53,6 +53,16 @@ function Menu() {
             <li className="nav-item fs-5">
               <NavLink to = "/Diagnosticos" className="nav-link">
                 Diagnósticos
+              </NavLink>
+            </li>
+            <li className="nav-item fs-5">
+              <NavLink to = "/Links" className="nav-link">
+                Link de Interés
+              </NavLink>
+            </li>
+            <li className="nav-item fs-5">
+              <NavLink to = "/Formacion" className="nav-link">
+                Formación
               </NavLink>
             </li>
             <li className="nav-item fs-5">
