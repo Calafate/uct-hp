@@ -1,8 +1,8 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
-import N020921Congreso from '../Noticias.jsx/N020921Congreso';
-import N240822Firma from '../Noticias.jsx/N240822Firma';
+import N020921Congreso from '../Noticias/N020921Congreso';
+import N240822Firma from '../Noticias/N240822Firma';
 
 function Diagnosticos() {
   return (

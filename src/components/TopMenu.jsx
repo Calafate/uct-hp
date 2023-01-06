@@ -15,7 +15,7 @@ const divbgColor={
           <h6 style={divh6}>www.hospitalelcalafate.gob.ar</h6>
         </div>
         <div className="col">
-          <h6 style={divh6}>+54 2902 491831 int 2244</h6>
+          <h6 style={divh6}>+54 2902 491831 int 4003</h6>
         </div>
         <div className="col">
           <h6 style={divh6}>secretaria.ucthp@gmail.com</h6>

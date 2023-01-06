@@ -31,7 +31,7 @@ function Contacto() {
             <h5>Avda. Jorge Newbery 453 - El Calafate - Santa Cruz</h5>
             <h5>+54 2902 491831 int 4003</h5>
             <h5>Consultas: secretaria.ucthp@gmail.com</h5>
-            <h5>Diagnosticos moleculares: diagnostico.molecular@hospitalelcalafate.gob.ar</h5>
+            <h5>Diagnósticos moleculares: diagnostico.molecular@hospitalelcalafate.gob.ar</h5>
           </div>
         </div>
       </div>

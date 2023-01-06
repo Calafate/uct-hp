@@ -24,7 +24,8 @@ function Footer() {
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <p className="h5">Sobre Nosotros...</p>
-                <p>Es un ámbitos que permiten reunir investigadores, decisores y financiadores para potenciar la investigación de los centros de salud y así acortar la distancia entre la producción de conocimiento y el impacto de esta en los cursos de tratamiento para los pacientes.</p>
+                <p>La UCT-HP del Hospital SAMIC El Calafate se inserta dentro del PLAN NACIONAL DE INVESTIGACIÓN TRASLACIONAL EN SALUD PARA LA RED DE HOSPITALES cuya misión es dar prioridad y hacer frente a los nuevos desafíos científicos y de investigación dentro del ámbito hospitalario, con el fin de formar equipos de profesionales con competencias investigativas y para vincular orgánicamente el conocimiento básico, clínico e implementar todos los conocimientos en los procesos asistenciales y de políticas de salud pública.
+                </p>
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <p className="h5">Donde encontrarnos</p>

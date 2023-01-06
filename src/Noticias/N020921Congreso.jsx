@@ -7,7 +7,7 @@ function N020921Congreso() {
       <h2>La UCT participó en el Congreso Europeo de Genética Humana</h2>
       <hr />
       <div className="d-flex flex-column">
-        <img src={foto1} alt="imagen" className="m-4"/>
+        <img src={foto1} alt="imagen" className="img-fluid m-4"/>
         <p>El equipo de la UCTHP – Unidad de Conocimiento Traslacional Hospitalaria Patagónica – presentó trabajos en el Congreso Europeo de Genética Humana relacionados a temas de diagnóstico e investigación en enfermedades cardiacas genéticas relacionadas a muerte súbita e Hipoacusias genéticas. <br/>
         El equipo de la UCTHP – con sede en el Hospital SAMIC El Calafate e integrado por el Dr. Guillermo Corró, Tec. Mónica Paola Bellazzi y Dr. Carlos David Bruque- lleva adelante el proyecto relacionado con enfermedades genéticas relacionadas a muerte súbita.<br/>
         Además, colabora activamente con el laboratorio de referencia de hipoacusias hereditarias a cargo de la Dra. Viviana Dalamón del Laboratorio de Fisiología y Genética de la Audición liderado por la Dra. Ana Belén Elgoyhen en el INGEBI-CONICET.<br/>

@@ -1,13 +1,14 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
+import endesarrollo from '../img/endesarrollo.png';
 
 function Links() {
   return (
     <div>
       <Menu />
       <div className="container">
-        Links
+        <img src={endesarrollo} className="img-fluid" alt="En desarrollo" />
       </div>
       <Footer />
     </div>
