@@ -23,34 +23,32 @@ function Investigacion() {
         <div className="container mb-5">
           <div className="row gap-3 d-flex justify-content-around">
             <div className="col">
-              <div class="card m-auto" style={styleCard}>
-                <img class="card-img-top mx-auto mt-2" src={milhouse} alt="foto" style={{width: "100px", height: "100px"}}/>
-                <div class="card-body">
-                  <h5 class="card-title">Bruque Carlos David</h5>
-                  <p class="card-text">Representante de investigadores</p>
-                  <a href="">
+              <div className="card m-auto" style={styleCard}>
+                <img className="card-img-top mx-auto mt-2" src={milhouse} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div className="card-body">
+                  <h5 className="card-title">Bruque Carlos David</h5>
+                  <p className="card-text">Representante de investigadores</p>
+                    <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card m-auto" style={styleCard}>
+                <img className="card-img-top mx-auto mt-2" src={homero} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div className="card-body">
+                  <h5 className="card-title">Corró Guillermo</h5>
+                  <p className="card-text">Representante de investigadores</p>
                   <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
-                  </a>
                 </div>
               </div>
             </div>
             <div className="col">
-              <div class="card m-auto" style={styleCard}>
-                <img class="card-img-top mx-auto mt-2" src={homero} alt="foto" style={{width: "100px", height: "100px"}}/>
-                <div class="card-body">
-                  <h5 class="card-title">Corró Guillermo</h5>
-                  <p class="card-text">Representante de investigadores</p>
-                  <a href=""><FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div class="card m-auto" style={styleCard}>
-                <img class="card-img-top mx-auto mt-2" src={marge} alt="foto" style={{width: "100px", height: "100px"}}/>
-                <div class="card-body">
-                  <h5 class="card-title"> Salgado Maria Victoria</h5>
-                  <p class="card-text">Representante de investigadores</p>
-                  <a href=""> <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" /></a>
+              <div className="card m-auto" style={styleCard}>
+                <img className="card-img-top mx-auto mt-2" src={marge} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div className="card-body">
+                  <h5 className="card-title"> Salgado Maria Victoria</h5>
+                  <p className="card-text">Representante de investigadores</p>
+                  <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
                 </div>
               </div>
             </div>
