@@ -57,7 +57,7 @@ function Menu() {
             </li>
             <li className="nav-item fs-5">
               <NavLink to = "/Links" className="nav-link">
-                Link de Interés
+                Links de Interés
               </NavLink>
             </li>
             <li className="nav-item fs-5">
