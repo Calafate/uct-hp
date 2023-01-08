@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import EmptyList from '../../components/common/EmptyList';
-import Menu from '../../components/Menu';
-import Footer from '../../components/Footer';
-import BlogList from '../../components/Noticias/BlogList';
-import SearchBar from '../../components/Noticias/SearchBar';
-import { noticiasList } from '../../data/data';
+import EmptyList from '../components/common/EmptyList';
+import Menu from '../components/Menu';
+import Footer from '../components/Footer';
+import BlogList from '../components/Noticias/BlogList';
+import SearchBar from '../components/Noticias/SearchBar';
+import { noticiasList } from '../data/data';
 
 
 const Noticias = () => {
@@ -43,7 +43,6 @@ const Noticias = () => {
         formSubmit={handleSearchBar}
         handleSearchKey={(e) => setSearchKey(e.target.value)}
       />
-
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
       <Footer />

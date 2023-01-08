@@ -2,7 +2,6 @@ import React from 'react';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 
-
 function Diagnosticos() {
   return (
     <div>
@@ -10,7 +9,6 @@ function Diagnosticos() {
       <h2>Virología e inmunología</h2>
       <h2>Oncología Molecular</h2>
       <h2>Genética Molecular Humana y Bioinformática</h2>
-      
       <Footer />
     </div>
   )
