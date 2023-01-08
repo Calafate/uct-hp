@@ -11,15 +11,6 @@
   margin-bottom: 2rem;
   display: block;
 }
-.blog-wrap header {
-  text-align: center;
-}
-
-.blog-date {
-  font-size: 0.8rem;
-  color: #8e0b0b;
-  font-weight: 500;
-}
 
 .blog-wrap img {
   width: 70%;

@@ -23,9 +23,9 @@ const Blog = () => {
     <>
       <Menu />
       <div className="container">
-        <Link className='blog-goBack' to='/Noticias'>
+        {/* <Link className='blog-goBack' to='/Noticias'>
           <h6 className="text-end"><span>&#8592;</span> <span>Volver a Noticias</span></h6>
-        </Link>
+        </Link> */}
         {blog ? (
           <div className='blog-wrap'>
             <div>
