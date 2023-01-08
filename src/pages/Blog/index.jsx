@@ -32,7 +32,7 @@ const Blog = () => {
               <h1>{blog.title}</h1>
             </div>
             <p>{blog.created}</p>
-            <img src={blog.cover} alt='cover' />
+            <img src={blog.cover} alt='imagen' />
             <p className='blog-desc text-start'>{blog.description}</p>
           </div>
         ) : (
