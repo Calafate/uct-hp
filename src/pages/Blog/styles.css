@@ -23,6 +23,8 @@
 
 .blog-wrap img {
   width: 70%;
+  height: 50vh;
+  object-fit: cover;
 }
 
 .blog-desc {

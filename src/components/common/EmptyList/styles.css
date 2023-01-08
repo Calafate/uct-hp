@@ -1,8 +1,11 @@
 .emptyList-wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .emptyList-wrap img {
+  margin: auto;
   max-width: 250px;
   width: 100%;
+  justify-items: center;
 }

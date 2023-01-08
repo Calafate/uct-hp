@@ -15,7 +15,7 @@ function Menu() {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <img src={logoUCT} alt="logo-UCT" style={{width: "150px"}}/>
+          <img src={logoUCT} alt="logo-UCT" style={{width: "120px"}}/>
         </a>
         <button
           className="navbar-toggler"

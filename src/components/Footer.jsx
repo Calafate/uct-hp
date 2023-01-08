@@ -8,15 +8,15 @@ function Footer() {
         width:"300px",
         height:"200px",
         border: "none",
-      };
+    };
 
-  return (
+    return (
     <div className="container-fluid pt-3 mt-5" style={{ backgroundColor: "var(--main-color)" }}>
         <div className="row p-3">
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <div className="p-3 d-flex justify-content-evenly">
-                    <img src={logoUCTHP} alt="logo-UCT" style={{width: "150px"}} />
-                    <img src={logoSAMIC} alt="logo-SAMIC" style={{width: "150px"}} />
+                    <img src={logoUCTHP} alt="logo-UCT" style={{width: "190px"}} />
+                    <img src={logoSAMIC} alt="logo-SAMIC" style={{width: "160px"}} />
                 </div>
                 {/* <p className="h3">UCT HP</p> */}
                 <p>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</p>
