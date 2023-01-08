@@ -3,7 +3,6 @@ import { useParams } from 'react-router';
 import { noticiasList } from '../../data/data';
 import EmptyList from '../../components/common/EmptyList';
 import './styles.css';
-import { Link } from 'react-router-dom';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
 
@@ -23,9 +22,6 @@ const Blog = () => {
     <>
       <Menu />
       <div className="container">
-        {/* <Link className='blog-goBack' to='/Noticias'>
-          <h6 className="text-end"><span>&#8592;</span> <span>Volver a Noticias</span></h6>
-        </Link> */}
         {blog ? (
           <div className='blog-wrap'>
             <div>
