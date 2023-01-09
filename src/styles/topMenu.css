@@ -1,0 +1,12 @@
+.topMenu {
+    background-color: #E0E0E0;
+}
+.topMenu h6 {
+    font-size: "12px";
+}
+
+@media (max-width: 768px) {
+    .topMenu {
+        display: none;
+    }
+}

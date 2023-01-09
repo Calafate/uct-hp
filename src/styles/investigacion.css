@@ -1,7 +1,6 @@
 .item-inv{
     margin-bottom: 30px;
     padding: 20px;
-    /* background-color: rgb(183, 224, 227); */
     background-color: rgba(77, 208, 225, 0.3);
     display: flex;
 }
@@ -15,4 +14,26 @@
 } */
 .img-inv img{
     width: 100px;
+}
+@media (max-width: 768px) {
+    .text-inv p{
+        position: relative;
+        max-height: 55px;
+        overflow: hidden;
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .text-inv h4{
+        font-size: 18px;
+    }
+    .text-inv p{
+        display:none
+    }
+    .card-text {
+        display: none;
+    }
+    .card-icon {
+        display: none;
+    }
 }

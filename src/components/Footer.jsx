@@ -1,6 +1,7 @@
 import React from 'react';
 import logoUCTHP from '../img/logo-UCT-HP.png';
 import logoSAMIC from '../img/logo-SAMIC.png';
+import '../styles/footer.css'
 
 function Footer() {
 
@@ -23,9 +24,11 @@ function Footer() {
                 <p>Hospital de Alta Complejidad de El Calafate SAMIC</p>
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
-                <p className="h5">Sobre Nosotros...</p>
-                <p>La UCT-HP del Hospital SAMIC El Calafate se inserta dentro del PLAN NACIONAL DE INVESTIGACIÓN TRASLACIONAL EN SALUD PARA LA RED DE HOSPITALES cuya misión es dar prioridad y hacer frente a los nuevos desafíos científicos y de investigación dentro del ámbito hospitalario, con el fin de formar equipos de profesionales con competencias investigativas y para vincular orgánicamente el conocimiento básico, clínico e implementar todos los conocimientos en los procesos asistenciales y de políticas de salud pública.
-                </p>
+                <div className="sobre-nosotros">
+                    <p className="h5">Sobre Nosotros...</p>
+                    <p>La UCT-HP del Hospital SAMIC El Calafate se inserta dentro del PLAN NACIONAL DE INVESTIGACIÓN TRASLACIONAL EN SALUD PARA LA RED DE HOSPITALES cuya misión es dar prioridad y hacer frente a los nuevos desafíos científicos y de investigación dentro del ámbito hospitalario, con el fin de formar equipos de profesionales con competencias investigativas y para vincular orgánicamente el conocimiento básico, clínico e implementar todos los conocimientos en los procesos asistenciales y de políticas de salud pública.
+                    </p>
+                </div>
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <p className="h5">Donde encontrarnos</p>

@@ -11,7 +11,7 @@ import { faViruses, faDna, faHeartPulse, faPeopleArrows, faFlaskVial, faBook } f
 
 function Investigacion() {
   const styleCard={
-    width: "250px"
+    width: "230px"
   }
 
   return (
@@ -21,34 +21,40 @@ function Investigacion() {
         <h2 className="text-center">Investigadores responsables</h2>
         <hr/>
         <div className="container mb-5">
-          <div className="row gap-3 d-flex justify-content-around">
-            <div className="col">
+          <div className="row gap-2 d-flex justify-content-around">
+            <div className="col-xs-12 col-md-3 col-lg-2">
               <div className="card m-auto" style={styleCard}>
                 <img className="card-img-top mx-auto mt-2" src={milhouse} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title">Bruque Carlos David</h5>
                   <p className="card-text">Representante de investigadores</p>
+                  <div className="card-icon">
                     <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-xs-12 col-md-3 col-lg-2">
               <div className="card m-auto" style={styleCard}>
                 <img className="card-img-top mx-auto mt-2" src={homero} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title">Corró Guillermo</h5>
                   <p className="card-text">Representante de investigadores</p>
-                  <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  <div className="card-icon">
+                    <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-xs-12 col-md-3 col-lg-2">
               <div className="card m-auto" style={styleCard}>
                 <img className="card-img-top mx-auto mt-2" src={marge} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title"> Salgado Maria Victoria</h5>
                   <p className="card-text">Representante de investigadores</p>
-                  <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  <div className="card-icon">
+                    <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </div>
                 </div>
               </div>
             </div>
