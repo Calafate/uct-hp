@@ -5,7 +5,9 @@ const Historia = () => {
   return (
     <div classname="container mt-5">
         <h2>Nuestra Historia</h2>
-        <img src={historia} alt="historia" />
+        <div className="row">
+          <img src={historia} className="fluid-img" alt="historia" />
+        </div>
     </div>
   )
 }
