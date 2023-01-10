@@ -6,6 +6,8 @@ import '../styles/investigacion.css';
 import homero from '../img/homero.png';
 import milhouse from '../img/milhouse.png';
 import marge from '../img/marge.png';
+import tony from '../img/tony.png';
+import selma from '../img/selma.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faViruses, faDna, faHeartPulse, faPeopleArrows, faFlaskVial, faBook } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,7 +29,7 @@ function Investigacion() {
                 <img className="card-img-top mx-auto mt-2" src={milhouse} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title">Bruque Carlos David</h5>
-                  <p className="card-text">Representante de investigadores</p>
+                  <p className="card-text"></p>
                   <div className="card-icon">
                     <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
                   </div>
@@ -39,7 +41,7 @@ function Investigacion() {
                 <img className="card-img-top mx-auto mt-2" src={homero} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title">Corró Guillermo</h5>
-                  <p className="card-text">Representante de investigadores</p>
+                  <p className="card-text"></p>
                   <div className="card-icon">
                     <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
                   </div>
@@ -51,7 +53,31 @@ function Investigacion() {
                 <img className="card-img-top mx-auto mt-2" src={marge} alt="foto" style={{width: "100px", height: "100px"}}/>
                 <div className="card-body">
                   <h5 className="card-title"> Salgado Maria Victoria</h5>
-                  <p className="card-text">Representante de investigadores</p>
+                  <p className="card-text"></p>
+                  <div className="card-icon">
+                    <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-md-3 col-lg-2">
+              <div className="card m-auto" style={styleCard}>
+                <img className="card-img-top mx-auto mt-2" src={tony} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div className="card-body">
+                  <h5 className="card-title"> Pelorosso Facundo</h5>
+                  <p className="card-text"></p>
+                  <div className="card-icon">
+                    <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-md-3 col-lg-2">
+              <div className="card m-auto" style={styleCard}>
+                <img className="card-img-top mx-auto mt-2" src={selma} alt="foto" style={{width: "100px", height: "100px"}}/>
+                <div className="card-body">
+                  <h5 className="card-title">Almeida Virna</h5>
+                  <p className="card-text"></p>
                   <div className="card-icon">
                     <FontAwesomeIcon icon={faBook} size="2x" color="#4DD0E1" />
                   </div>

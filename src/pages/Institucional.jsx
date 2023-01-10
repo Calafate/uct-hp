@@ -1,15 +1,15 @@
 import React from "react";
-import Directivos from "../components/Directivos";
 import Menu from "../components/Menu";
 import Footer from '../components/Footer';
 import Mision from "../components/Mision";
+import Historia from "../components/Historia";
 
 function Institucional() {
   return (
     <div>
       <Menu />
       <Mision />
-      <Directivos />
+      <Historia />
       <Footer />
     </div>
   );

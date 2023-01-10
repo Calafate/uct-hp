@@ -1,3 +1,9 @@
+.card-body {
+    padding: 0 0 !important;
+}
+.card-icon {
+    padding-bottom: 10px;
+}
 .item-inv{
     margin-bottom: 30px;
     padding: 20px;

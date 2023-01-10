@@ -1,0 +1,17 @@
+.listado {
+    width: 60%;
+    margin: 0 auto;
+}
+.listado ul {
+
+}
+
+.listado li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.listado li:hover {
+    background-color: var(--main-color);
+}

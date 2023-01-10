@@ -25,7 +25,8 @@ const Blog = () => {
         {blog ? (
           <div className='blog-wrap'>
             <div>
-              <h1>{blog.title}</h1>
+              <h2>{blog.title}</h2>
+              <hr />
             </div>
             <p>{blog.created}</p>
             <img src={blog.cover} alt='imagen' />

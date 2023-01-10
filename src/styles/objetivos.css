@@ -1,0 +1,32 @@
+.objetivos-wrap {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.objetivo{
+    position: relative;
+}
+
+.objetivo-img{
+    border: 2px solid var(--main-color);
+    box-shadow: 10px 10px 5px 0px rgba(77,208,225,0.5);
+    background-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    top: -30%;
+}
+.objetivo-img img{
+
+}
+
+.objetivo-text{
+    padding: 10px 20px;
+    border: 2px solid var(--main-color);
+    box-shadow: 10px 10px 5px 0px rgba(77,208,225,0.5);
+}

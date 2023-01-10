@@ -38,7 +38,7 @@ function Footer() {
         </div>
         <div className="row">
             <hr/>
-            <p>©2023 - Todos los derechos reservados</p>
+            <p>Todos Los Derechos Reservados © 2023 MAG</p>
         </div>
     </div>
   )
