@@ -1,7 +1,6 @@
 import React from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import endesarrollo from "../img/endesarrollo.png";
 import '../styles/links.css'
 
 function Links() {
@@ -26,11 +25,20 @@ function Links() {
               <a href="https://www.ibyme.org.ar/" 
               target="_blank" rel="noreferrer">Fundación IBYME</a>
             </li>
-            {/* <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li> */}
+            <li class="list-group-item">
+              <a href="https://www.argentina.gob.ar/ciencia" 
+              target="_blank" rel="noreferrer">Ministerio de Ciencia, Tecnología e Innovación</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://rits.conicet.gov.ar/" 
+              target="_blank" rel="noreferrer">Red de Investigación Traslacional en Salud (RITS)</a>
+            </li>
+            {/* <li class="list-group-item">
+              <a href="" 
+              target="_blank" rel="noreferrer"></a>
+            </li> */}
           </ul>
         </div>
-        <img src={endesarrollo} className="img-fluid" alt="En desarrollo" />
       </div>
       <Footer />
     </div>

@@ -6,7 +6,7 @@ import { faMicroscope, faBookMedical, faVialVirus } from '@fortawesome/free-soli
 const Objetivos = () => {
   return (
     <div className="container mt-5 mb-5">
-      <div className="row g-5 objetivos-wrap">
+      <div className="row g-5 justify-content-evenly objetivos-wrap">
         <div className="col-xs-12 col-md-6 col-lg-4">
           <div className="objetivo">
             <div className="objetivo-img mx-auto my-auto">

@@ -1,16 +1,6 @@
 export const noticiasList = [
   {
     id: 1,
-    title: 'El Hospital SAMIC El Calafate participó en la Reunión Anual de las Sociedades de Biociencias 2022',
-    category: 'divulgación',
-    description:
-      "El Dr. David Bruque y la Bioq. Romina Navarro UCT (Unidad de Conocimiento Traslacional) presentaron trabajos de investigación en la Reunión Anual de la Sociedad Argentina de Investigación Clínica que se realizó del 16 al 19 de noviembre en la ciudad de Mar del Plata. Los profesionales disertaron sobre ANÁLISIS GENÉTICO DE PACIENTES CON MÚLTIPLES ANOMALÍAS CONGÉNITAS Y CARDIOPATÍA CONGÉNITA AISLADA. En la oportunidad, el Dr. Bruque fue nombrado Coordinador del Área de Genética Humana de la Sociedad Argentina de Investigación Clínica.",
-    created: '24/11/2022',
-    cover:
-      '/assets/images/noticias/241122.jpg',
-  },
-  {
-    id: 2,
     title: 'Publicación de trabajo científico',
     category: 'divulgación',
     description:
@@ -19,7 +9,7 @@ export const noticiasList = [
     cover: '/assets/images/noticias/100122.jpg',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Anuncio de creación de una UCT-HP',
     category: 'redes',
     description:
@@ -28,7 +18,7 @@ export const noticiasList = [
     cover: '/assets/images/noticias/120321.jpg',
   },
   {
-    id: 4,
+    id: 3,
     title: 'La UCT- HP de El Calafate obtuvo reconocimiento oficial',
     category: 'redes',
     description:
@@ -37,7 +27,7 @@ export const noticiasList = [
     cover: '/assets/images/noticias/131221.jpg',
   },
   {
-    id: 5,
+    id: 4,
     title: 'AUTORIDADES PROVINCIALES EN EL HOSPITAL SAMIC',
     category: 'redes',
     description:
@@ -46,7 +36,7 @@ export const noticiasList = [
     cover: '/assets/images/noticias/160922.jpg',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Seminario sobre hipoacusia hereditaria',
     category: 'divulgación',
     description:
@@ -56,7 +46,7 @@ export const noticiasList = [
       '/assets/images/noticias/211021.jpg',
   },
   {
-    id: 7,
+    id: 6,
     title: 'Reunión informativa UCT-HP',
     category: 'redes',
     description:
@@ -65,7 +55,7 @@ export const noticiasList = [
     cover: '/assets/images/noticias/220721.jpg',
   },
   {
-    id: 8,
+    id: 7,
     title: 'Vizzotti y Filmus participaron del acto de firma de adjudicación de investigación científica para el Hospital SAMIC junto a 8 hospitales nacionales',
     category: 'redes',
     description:
@@ -75,12 +65,31 @@ export const noticiasList = [
       '/assets/images/noticias/230822.jpg',
   },
   {
-    id: 9,
+    id: 8,
     title: 'La UCT participó en el Congreso Europeo de Genética Humana',
     category: 'divulgación',
     description:
       "El equipo de la UCTHP – Unidad de Conocimiento Traslacional Hospitalaria Patagónica – presentó trabajos en el Congreso Europeo de Genética Humana relacionados a temas de diagnóstico e investigación en enfermedades cardiacas genéticas relacionadas a muerte súbita e Hipoacusias genéticas. El equipo de la UCTHP – con sede en el Hospital SAMIC El Calafate e integrado por el Dr. Guillermo Corró, Tec. Mónica Paola Bellazzi y Dr. Carlos David Bruque- lleva adelante el proyecto relacionado con enfermedades genéticas relacionadas a muerte súbita. Además, colabora activamente con el laboratorio de referencia de hipoacusias hereditarias a cargo de la Dra. Viviana Dalamón del Laboratorio de Fisiología y Genética de la Audición liderado por la Dra. Ana Belén Elgoyhen en el INGEBI-CONICET. El Dr. Bruque, director de la UCTHP, consideró que “estos trabajos están enmarcados dentro del contexto de la generación de conocimiento y de líneas en investigación traslacionales y diagnóstico molecular que no se realizaban hasta el momento en la región”. Asimismo, agregó que “esta fue una oportunidad para mostrar a la comunidad científica internacional los trabajos realizados, las investigaciones llevadas adelante y los primeros pasos para la realización de diagnóstico genético molecular humana en Patagonia”.",
     created: '02/09/2021',
     cover: '/assets/images/noticias/020921.jpg',
+  },
+  {
+    id: 9,
+    title: 'El Hospital SAMIC El Calafate participó en la Reunión Anual de las Sociedades de Biociencias 2022',
+    category: 'divulgación',
+    description:
+      "El Dr. David Bruque y la Bioq. Romina Navarro UCT (Unidad de Conocimiento Traslacional) presentaron trabajos de investigación en la Reunión Anual de la Sociedad Argentina de Investigación Clínica que se realizó del 16 al 19 de noviembre en la ciudad de Mar del Plata. Los profesionales disertaron sobre ANÁLISIS GENÉTICO DE PACIENTES CON MÚLTIPLES ANOMALÍAS CONGÉNITAS Y CARDIOPATÍA CONGÉNITA AISLADA. En la oportunidad, el Dr. Bruque fue nombrado Coordinador del Área de Genética Humana de la Sociedad Argentina de Investigación Clínica.",
+    created: '24/11/2022',
+    cover:
+      '/assets/images/noticias/241122.jpg',
+  },
+  {
+    id: 10,
+    title: 'El CONICET admitió como Investigadora en Salud a una médica de El Calafate',
+    category: 'divulgación',
+    description:
+      "La Dra. Victoria Salgado es la jefa del Servicio de Medicina Familiar del hospital SAMIC. Para lograr ingresar a la carrera de investigadora en salud presentó un proyecto sobre cómo el etiquetado neutro en los paquetes de cigarrillos influye en la reducción de enfermedades relacionadas con el tabaco. El trabajo analiza el efecto en la salud cardiovascular de las personas fumadoras, si los paquetes de los cigarrillos fueran neutros. Es decir que tengan  logotipos, colores, imágenes de marca o información promocional en el empaquetado. El marketing de tabaco es una herramienta estratégica utilizada para incentivar y naturalizar el consumo de tabaco, así como para promover la iniciación al consumo en niños, niñas y adolescentes. Y el paquete de cigarrillos es una pieza clave en este sentido. El pasado jueves el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) le notificó a la Dra. Salgado que fue admitida en la carrera de Investigadora en Salud, una modalidad no rentada que le permite seguir trabajando en el Hospital SAMIC El Calafate, en el que cumple funciones como jefa del Servicio de Medicina Familiar.",
+    created: '11/01/2023',
+    cover: '/assets/images/noticias/110123.jpg',
   }
 ];
