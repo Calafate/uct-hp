@@ -11,3 +11,8 @@
     margin: 0 auto;
     margin-top: 10px;
 }
+@media (max-width: 576px) {
+    .card-icon{
+        display: none;
+    }
+}

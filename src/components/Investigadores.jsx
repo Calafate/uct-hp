@@ -15,7 +15,7 @@ const Investigadores = () => {
         <h2>Investigadores responsables</h2>
         <hr />
         <div className="row mb-5 justify-content-evenly">
-            <div className="col-xs-12 col-md-4 col-lg-2">
+            <div className="col-sm-6 col-md-4 col-lg-2">
               <div className="card mx-auto card-wrap">
                 <div className="card-img-wrap">
                   <img className="card-img-top" src={milhouse} alt="foto" />
@@ -31,7 +31,7 @@ const Investigadores = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-md-4 col-lg-2">
+            <div className="col-sm-6 col-md-4 col-lg-2">
               <div className="card mx-auto card-wrap">
                 <div className="card-img-wrap">
                   <img className="card-img-top" src={homero} alt="foto" />
@@ -47,7 +47,7 @@ const Investigadores = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-md-4 col-lg-2">
+            <div className="col-sm-6 col-md-4 col-lg-2">
               <div className="card mx-auto card-wrap">
                 <div className="card-img-wrap">
                   <img className="card-img-top" src={marge} alt="foto"/>
@@ -63,7 +63,7 @@ const Investigadores = () => {
                   </div>
               </div>
             </div>
-            <div className="col-xs-12 col-md-4 col-lg-2">
+            <div className="col-sm-6 col-md-4 col-lg-2">
               <div className="card mx-auto card-wrap">
                 <div className="card-img-wrap">
                   <img className="card-img-top" src={tony} alt="foto" />
@@ -79,7 +79,7 @@ const Investigadores = () => {
                   </div>
               </div>
             </div>
-            <div className="col-xs-12 col-md-4 col-lg-2">
+            <div className="col-sm-6 col-md-4 col-lg-2">
               <div className="card mx-auto card-wrap">
                 <div className="card-img-wrap">
                   <img className="card-img-top" src={selma} alt="foto" />
