@@ -1,0 +1,21 @@
+
+.item-inv{
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(77, 208, 225, 0.3);
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .text-inv p{
+        position: relative;
+        max-height: 55px;
+        overflow: hidden;
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .text-inv h4{
+        font-size: 18px;
+    }
+}
