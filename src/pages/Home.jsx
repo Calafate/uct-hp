@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Menu from '../components/Menu';
 import NoticiasHome from '../components/NoticiasHome';
 import Objetivos from '../components/Objetivos';
+import ScrollButton from '../components/ScrollButton';
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Carousel />
             <Objetivos />
             <NoticiasHome />
+            <ScrollButton />
             <Footer />
         </div>
     )

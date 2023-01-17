@@ -5,14 +5,15 @@ import EmptyList from '../../components/common/EmptyList';
 import './styles.css';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
+import ScrollButton from '../../components/ScrollButton';
 
 const Blog = () => {
-  const { id } = useParams();
-  const [blog, setBlog] = useState(noticiasList);
+const { id } = useParams();
+const [blog, setBlog] = useState(noticiasList);
 
   useEffect(() => {
     let blog = noticiasList.find((blog) => blog.id === parseInt(id));
-    setBlog(blog) 
+    setBlog(blog);
     if (blog) {
       setBlog(blog);
     } 
@@ -36,9 +37,9 @@ const Blog = () => {
           <EmptyList />
         )}
       </div>
+      <ScrollButton />
       <Footer />
     </>
-  );
-};
+  )};
 
 export default Blog;

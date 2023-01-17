@@ -3,6 +3,7 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import samic1 from '../img/samic1.jpg';
 import '../styles/contacto.css';
+import ScrollButton from '../components/ScrollButton';
 
 function Contacto() {
 
@@ -33,6 +34,7 @@ function Contacto() {
           </div>
         </div>
       </div>
+      <ScrollButton />
       <Footer />
     </div>
   )
