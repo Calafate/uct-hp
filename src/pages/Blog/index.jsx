@@ -8,16 +8,20 @@ import Footer from '../../components/Footer';
 import ScrollButton from '../../components/ScrollButton';
 
 const Blog = () => {
-const { id } = useParams();
-const [blog, setBlog] = useState(noticiasList);
+  const { id } = useParams();
+  const [blog, setBlog] = useState(noticiasList);
+  const [article, setArticle]= useState([])
 
   useEffect(() => {
     let blog = noticiasList.find((blog) => blog.id === parseInt(id));
-    setBlog(blog);
+    /* setBlog(blog); */
     if (blog) {
       setBlog(blog);
+      const article = (blog.description).split("/n");
+      setArticle(article);
     } 
   }, [id]);
+
 
   return (
     <>
@@ -30,8 +34,14 @@ const [blog, setBlog] = useState(noticiasList);
               <hr />
             </div>
             <p>{blog.created}</p>
-            <img src={blog.cover} alt='imagen' />
-            <p className='blog-desc text-start'>{blog.description}</p>
+            <div>
+              <img className="mb-5" src={blog.cover} alt='imagen' />
+            </div>
+            <div>
+              {article.map((parrafo, i) => ( 
+                <p key={i} className="divParrafo">{parrafo}</p>
+              ))}
+            </div>
           </div>
         ) : (
           <EmptyList />

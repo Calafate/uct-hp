@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Navigate} from 'react-router-dom';
 import Home from './pages/Home';
 import Institucional from './pages/Institucional';
 import Noticias from './pages/Noticias';
@@ -24,6 +24,7 @@ function App() {
             <Route path = '/Links' element = {<Links />} />
             <Route path = '/Formacion' element = {<Formacion />} />
             <Route path = '/blog/:id' element = {<Blog />} />
+            <Route path = '*' element = {<Navigate to = "/" replace={true} />} />
           </Routes>
     </div>
   );

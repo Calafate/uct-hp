@@ -3,9 +3,11 @@ import {NavLink} from "react-router-dom";
 import TopMenu from '../components/TopMenu';
 import logoUCT from '../img/logo-UCT-HP-menu.png';
 import logoSAMIC from '../img/logo.png';
+import '../styles/menu.css'
 
 function Menu() {
-  
+
+
   return (
     <>
       <TopMenu />
@@ -33,42 +35,42 @@ function Menu() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
             <li className="nav-item fs-5">
-              <NavLink to = "/Home" className="nav-link">
+              <NavLink to = "/Home" activeclassname="active" className="nav-link">
                 Home
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Institucional" className="nav-link">
+              <NavLink to = "/Institucional" activeclassname="active" className="nav-link">
                 Institucional
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Noticias" className="nav-link">
+              <NavLink to = "/Noticias" activeclassname="active" className="nav-link">
                 Noticias
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Investigacion" className="nav-link">
+              <NavLink to = "/Investigacion" activeclassname="active" className="nav-link">
                 Investigación
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Diagnosticos" className="nav-link">
+              <NavLink to = "/Diagnosticos" activeclassname="active" className="nav-link">
                 Diagnósticos
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Links" className="nav-link">
+              <NavLink to = "/Links" activeclassname="active" className="nav-link">
                 Links de Interés
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Formacion" className="nav-link">
+              <NavLink to = "/Formacion" activeclassname="active" className="nav-link">
                 Formación
               </NavLink>
             </li>
             <li className="nav-item fs-5">
-              <NavLink to = "/Contacto" className="nav-link">
+              <NavLink to = "/Contacto" activeclassname="active" className="nav-link">
                 Contacto
               </NavLink>
             </li>
