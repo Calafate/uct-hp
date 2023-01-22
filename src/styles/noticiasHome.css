@@ -1,88 +1,40 @@
-.noticia {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 10px 0 10px 0;
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px;
 }
-
-.noticia-img {
-    padding-right: 20px;
-    border-right: 1px solid black;
+.grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.grid-item{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
 }
-
-.noticia-img p {
-    font-size: 14px;
+.grid-caption{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.2);
 }
-
-.noticia-img img {
-    width: 400px;
-    height: 230px;
-    object-fit: cover;
+.grid-title{
+  text-transform: uppercase;
+  color: aliceblue;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 12rem;
 }
-
-.noticia-body {
-    padding-left: 30px;
+.grid-caption:hover {
+  background-color: rgba(6, 129, 129, 0.7);
 }
-
-.noticia-body p {
-    max-height: 140px;
-    overflow: hidden;
-    text-align: left;
-}
-
-.noticia-body h5 {
-    text-align: left;
-   
-}
-
-.noticia-hr {
-    border-top: 4px double black;
-	text-align: center;
-}
-
-.blogItem-link {
-     color: rgb(238, 6, 6);  
-}
-
-.blogItem-link :hover{
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--main-color);
-}
-
-@media (max-width: 992px) {
-    .noticia-img img {
-        padding-right: 10px;
-        width: 160px;
-        height: 100px;
-        object-fit: cover;
-    }
-    .noticia-body {
-        padding-left:  10px;
-    }
-    .noticia-body h5 {
-        font-size: 18px;
-        text-align: left;
-    }
-    .noticia-body p {
-       display: none;
-    }
-}
-@media (max-width: 576px) {
-    .noticia-img img {
-        padding-right: 10px;
-        width: 120px;
-        height: 90px;
-        object-fit: cover;
-    }
-    .noticia-body {
-        padding-left:  10px;
-    }
-    .noticia-body h5 {
-        font-size: 16px;
-        text-align: left;
-    }
-    .noticia-body p {
-       display: none;
-    }
+@media (max-width: 992px){
+  .grid-container{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+  }
 }
