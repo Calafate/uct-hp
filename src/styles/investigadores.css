@@ -15,4 +15,8 @@
     .card-icon{
         display: none;
     }
+    .card-wrap {
+        width: 50%;
+        height: 50%;
+    }
 }

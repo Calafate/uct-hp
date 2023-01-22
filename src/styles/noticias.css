@@ -26,6 +26,8 @@
 .news-block {
     width: 79%;
     padding-right: 1%;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-block {
@@ -37,6 +39,8 @@
     .news-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .search-block {
         width: 100%;
