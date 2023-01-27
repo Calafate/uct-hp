@@ -31,7 +31,7 @@
 }
 .data-items-icon {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 60px;
     height: 60px;
