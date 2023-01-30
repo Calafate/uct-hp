@@ -34,3 +34,15 @@
     filter: brightness(90%);
     transform: scale(1.1);
 }
+@media (max-width: 576px) {
+    .all {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .containerInvestigadores {
+        width: 130px;
+    }
+}
