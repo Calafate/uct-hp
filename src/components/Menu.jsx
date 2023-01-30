@@ -1,8 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import TopMenu from '../components/TopMenu';
 import logoUCT from '../img/logo-UCT-HP-menu.png';
-import logoSAMIC from '../img/logo.png';
 import '../styles/menu.css'
 
 function Menu() {
@@ -10,30 +8,26 @@ function Menu() {
 
   return (
     <>
-      <TopMenu />
-      <h2 className="m-3">Unidad de Conocimiento Traslacional Hospitalaria Patagónica</h2>
-    <nav
-      className="navbar sticky-top navbar-expand-lg navbar-light mb-3"
-      style={{ backgroundColor: "var(--main-color)" }}
-    >
+    <nav className="navbar sticky-top navbar-expand-lg "
+      style={{ backgroundColor: "var(--main-color)" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <img src={logoUCT} alt="logo-UCT" style={{width: "120px", marginRight: "10px"}}/>
-          <img src={logoSAMIC} alt="logo-SAMIC" style={{width: "35px"}}/>
+          <img src={logoUCT} className="d-inline-block align-text-top" alt="logo-UCT" style={{width: "100px", marginRight: "10px"}}/>
+          UCT HP
         </a>
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <ul className="navbar-nav mb-2 mb-lg-0 ">
             <li className="nav-item fs-5">
               <NavLink to = "/Home" activeclassname="active" className="nav-link">
                 Home

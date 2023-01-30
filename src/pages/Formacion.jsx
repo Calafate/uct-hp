@@ -8,6 +8,7 @@ function Formacion() {
     <div>
       <Menu />
       <div className="container">
+        <h2 className="mt-5">Formación</h2>
         <img src={endesarrollo} className="img-fluid" alt="En desarrollo" />
       </div>
       <Footer />

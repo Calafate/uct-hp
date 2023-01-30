@@ -14,7 +14,6 @@ const Blog = () => {
 
   useEffect(() => {
     let blog = noticiasList.find((blog) => blog.id === parseInt(id));
-    /* setBlog(blog); */
     if (blog) {
       setBlog(blog);
       const article = (blog.description).split("/n");

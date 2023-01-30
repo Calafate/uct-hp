@@ -8,7 +8,7 @@ function Links() {
     <div>
       <Menu />
       <div className="container">
-        <h2>Links de interés</h2>
+        <h2 className="mt-5">Links de interés</h2>
         <hr />
         <div className="listado">
           <ul className="list-group text-start">
@@ -33,10 +33,6 @@ function Links() {
               <a href="https://rits.conicet.gov.ar/" 
               target="_blank" rel="noreferrer">Red de Investigación Traslacional en Salud (RITS)</a>
             </li>
-            {/* <li className="list-group-item">
-              <a href="" 
-              target="_blank" rel="noreferrer"></a>
-            </li> */}
           </ul>
         </div>
       </div>

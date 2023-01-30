@@ -26,7 +26,7 @@ const Investigadores = () => {
                       </div>
                       <div className="card-icon pb-1">
                         <a data-bs-toggle="collapse" href='#cv' role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                          <FontAwesomeIcon icon={faFileLines} size="2x" color="#4DD0E1" />
+                          <FontAwesomeIcon icon={faFileLines} size="2x" color="var(--main-color)" />
                         </a>
                       </div>
                     </div>

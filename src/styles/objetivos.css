@@ -10,7 +10,7 @@
 .objetivo-img{
     margin: 0 auto;
     border: 2px solid var(--main-color);
-    box-shadow: 10px 10px 5px 0px rgba(77,208,225,0.5);
+    box-shadow: 10px 10px 5px 0px var(--shadow-color);
     background-color: white;
     border-radius: 50%;
     width: 120px;

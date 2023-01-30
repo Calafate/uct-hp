@@ -2,7 +2,7 @@
 .item-inv{
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgba(77, 208, 225, 0.3);
+    background-color: var(--background-color);
     display: flex;
 }
 

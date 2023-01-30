@@ -10,7 +10,7 @@ const Objetivos = () => {
         <div className="col-xs-12 col-md-6 col-lg-4">
           <div className="objetivo mx-auto">
             <div className="objetivo-img mx-auto my-auto">
-            <FontAwesomeIcon icon={faMicroscope} size="4x" color="#4DD0E1" />
+            <FontAwesomeIcon icon={faMicroscope} size="4x" color="var(--main-color)" />
             </div>
             <div className="objetivo-text">
               <h4 className="pt-5 mt-2">Investigación</h4>
@@ -21,7 +21,7 @@ const Objetivos = () => {
         <div className="col-xs-12 col-md-6 col-lg-4">
           <div className="objetivo">
             <div className="objetivo-img mx-auto my-auto">
-              <FontAwesomeIcon icon={faVialVirus} size="4x" color="#4DD0E1" />
+              <FontAwesomeIcon icon={faVialVirus} size="4x" color="var(--main-color)" />
             </div>
             <div className="objetivo-text">
               <h4 className="pt-5 mt-2">Diagnósticos</h4>
@@ -32,7 +32,7 @@ const Objetivos = () => {
         <div className="col-xs-12 col-md-6 col-lg-4">
           <div className="objetivo">
             <div className="objetivo-img mx-auto my-auto">
-              <FontAwesomeIcon icon={faBookMedical} size="4x" color="#4DD0E1" />
+              <FontAwesomeIcon icon={faBookMedical} size="4x" color="var(--main-color)" />
             </div>
             <div className="objetivo-text">
               <h4 className="pt-5 mt-2">Formación</h4>

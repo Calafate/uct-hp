@@ -43,34 +43,3 @@ const NoticiasHome = () => {
 };
 
 export default NoticiasHome;
-
-/* <hr className="noticia-hr" />
-          <div className="noticia">
-            <div className="noticia-img">
-              <img src={nota.cover} alt="imagen" />
-              <p>{nota.created}</p>
-            </div>
-            <div className="noticia-body">
-              <h5>{nota.title}</h5>
-              <p>{nota.description}</p>
-              <Link className="blogItem-link text-end" to={`/blog/${nota.id}`}>
-                <p>Seguir Leyendo</p>
-              </Link>
-            </div>
-          </div>
-          <hr className="noticia-hr" /> 
-          ***********************
-          <div className="portfolio-item">
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">{nota.title}</div>
-                    <p className="mb-0">safd afa fsa asfdada</p>
-                    </div>
-                    <div className="caption-img">
-                      <img className="img-fluid" src={nota.cover} alt="imagen" />
-                    </div>
-                  </div>
-                  
-                </div>
-          
-          */

@@ -13,7 +13,7 @@ function Contacto() {
     <div>
       <Menu />
       <div className="container">
-        <div className="gridContacto-container">
+        <div className="gridContacto-container mt-5">
           <div className="foto-container">
             <img className="foto-img" src={samic1} alt="foto hospital" />
           </div>

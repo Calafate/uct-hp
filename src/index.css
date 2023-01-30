@@ -11,7 +11,9 @@ body {
 }
 
 :root {
-  --main-color: #4DD0E1;
+  --main-color: #4DD0E1;  /* #4DD0E1 */
+  --shadow-color: rgba(77,208,225,0.5);  /*rgba(77,208,225,0.5)*/
+  --background-color: rgba(77, 208, 225, 0.3);  /*rgba(77, 208, 225, 0.3)*/
 }
 
 code {
