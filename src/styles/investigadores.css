@@ -37,10 +37,9 @@
 @media (max-width: 576px) {
     .all {
         display: flex;
-        justify-content:center;
+        justify-content:space-around;
         align-items: center;
         flex-wrap: wrap;
-        
     }
     .containerInvestigadores {
         width: 130px;
