@@ -33,6 +33,14 @@ function Links() {
               <a href="https://rits.conicet.gov.ar/" 
               target="_blank" rel="noreferrer">Red de Investigación Traslacional en Salud (RITS)</a>
             </li>
+            <li className="list-group-item">
+              <a href="https://sag.org.ar/sitio/" 
+              target="_blank" rel="noreferrer">Sociedad Argentina de Genética (SAG)</a>
+            </li>
+            <li className="list-group-item">
+              <a href="https://www.conicet.gov.ar/" 
+              target="_blank" rel="noreferrer">Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)</a>
+            </li>
           </ul>
         </div>
       </div>
