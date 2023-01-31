@@ -28,42 +28,42 @@ function Menu() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarContent">
           <ul className="navbar-nav mb-2 mb-lg-0 ">
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Home" activeclassname="active" className="nav-link">
                 Home
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Institucional" activeclassname="active" className="nav-link">
                 Institucional
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Noticias" activeclassname="active" className="nav-link">
                 Noticias
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Investigacion" activeclassname="active" className="nav-link">
                 Investigación
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Diagnosticos" activeclassname="active" className="nav-link">
                 Diagnósticos
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Links" activeclassname="active" className="nav-link">
                 Links de Interés
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Formacion" activeclassname="active" className="nav-link">
                 Formación
               </NavLink>
             </li>
-            <li className="nav-item fs-5">
+            <li className="nav-item">
               <NavLink to = "/Contacto" activeclassname="active" className="nav-link">
                 Contacto
               </NavLink>

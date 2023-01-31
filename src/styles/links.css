@@ -3,6 +3,7 @@
     margin: 0 auto;
 }
 
+
 .listado li a {
     text-decoration: none;
     font-size: 18px;
@@ -11,10 +12,4 @@
 
 .listado li:hover {
     background-color: var(--main-color);
-}
-@media (max-width: 992px) {
-    .listado {
-        width: 100%;
-        margin: 0 auto;
-    }
 }
