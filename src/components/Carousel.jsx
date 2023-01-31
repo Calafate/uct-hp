@@ -33,19 +33,19 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={carousel1} className="d-block w-100" alt="imagen" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption  d-md-block">
               <h3>Formamos equipos profesionales con competencias investigativas vinculando el conocimiento básico, clínico con la implementación de políticas de salud pública</h3>
             </div>
           </div>
           <div className="carousel-item">
             <img src={carousel2} className="d-block w-100" alt="imagen" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption  d-md-block">
               <h3>Nuestro objetivo es mejorar procesos de atención de la salud con especial atención a la formación e impulso de la producción de conocimientos en salud.</h3>
             </div>
           </div>
           <div className="carousel-item">
             <img src={carousel3} className="d-block w-100" alt="imagen" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption  d-md-block">
               <h3>Desarrollamos investigación científica dentro del ámbito hospitalario</h3>
             </div>
           </div>
