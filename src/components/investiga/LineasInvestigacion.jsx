@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faViruses, faDna, faHeartPulse, faPeopleArrows, faFlaskVial } from '@fortawesome/free-solid-svg-icons';
-import '../styles/lineasInvestigacion.css';
+import '../../components/investiga/lineasInvestigacion.css';
 
 const LineasInvestigacion = () => {
   return (

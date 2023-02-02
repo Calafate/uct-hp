@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import logoUCT from '../img/logo-UCT-HP-menu.png';
-import '../styles/menu.css'
+import logoUCT from '../../../img/logo-UCT-HP-menu.png';
+import '../../common/menu/menu.css'
 
 function Menu() {
 

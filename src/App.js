@@ -1,13 +1,13 @@
 import './App.css';
 import {Routes, Route, Navigate} from 'react-router-dom';
-import Home from './pages/Home';
-import Institucional from './pages/Institucional';
-import Noticias from './pages/Noticias';
-import Investigacion from './pages/Investigacion';
-import Diagnosticos from './pages/Diagnosticos';
-import Contacto from './pages/Contacto';
-import Formacion from './pages/Formacion';
-import Links from './pages/Links';
+import Home from './pages/home/Home';
+import Institucional from './pages/institucional/Institucional';
+import Noticias from './pages/noticias/Noticias';
+import Investigacion from './pages/investigacion/Investigacion';
+import Diagnosticos from './pages/diagnosticos/Diagnosticos';
+import Contacto from './pages/contacto/Contacto';
+import Formacion from './pages/formacion/Formacion';
+import Links from './pages/links/Links';
 import Blog from './pages/Blog';
 
 function App() {

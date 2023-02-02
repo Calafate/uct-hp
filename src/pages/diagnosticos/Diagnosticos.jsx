@@ -1,7 +1,8 @@
 import React from "react";
-import "../styles/diagnosticos.css";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
+import "../diagnosticos/diagnosticos.css";
+import Menu from "../../components/common/menu/Menu";
+import Footer from "../../components/common/footer/Footer";
+import ScrollButton from "../../components/common/scrollButton/ScrollButton";
 
 function Diagnosticos() {
   return (
@@ -54,6 +55,7 @@ function Diagnosticos() {
           </div>
         </div>
       </div>
+      <ScrollButton />
       <Footer />
     </div>
   );

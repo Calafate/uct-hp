@@ -1,10 +1,10 @@
 import React from "react";
-import corro from "../img/corro.png";
-import bruque from "../img/bruque.png";
-import salgado from "../img/salgado.png";
-import pelorosso from "../img/pelorosso.png";
-import almeida from "../img/almeida.png";
-import "../styles/investigadores.css";
+import corro from "../../img/corro.png";
+import bruque from "../../img/bruque.png";
+import salgado from "../../img/salgado.png";
+import pelorosso from "../../img/pelorosso.png";
+import almeida from "../../img/almeida.png";
+import "../../components/investiga/investigadores.css";
 
 const Investigadores = () => {
     return (

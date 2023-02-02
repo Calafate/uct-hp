@@ -3,9 +3,9 @@ import { useParams } from 'react-router';
 import { noticiasList } from '../../data/data';
 import EmptyList from '../../components/common/EmptyList';
 import './styles.css';
-import Menu from '../../components/Menu';
-import Footer from '../../components/Footer';
-import ScrollButton from '../../components/ScrollButton';
+import Menu from '../../components/common/menu/Menu';
+import Footer from '../../components/common/footer/Footer';
+import ScrollButton from '../../components/common/scrollButton/ScrollButton';
 
 const Blog = () => {
   const { id } = useParams();

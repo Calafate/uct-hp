@@ -1,7 +1,7 @@
 import React from 'react';
-import logoUCTHP from '../img/logo-UCT-HP.png';
-import logoSAMIC from '../img/logo-SAMIC.png';
-import '../styles/footer.css'
+import logoUCTHP from '../../../img/logo-UCT-HP.png';
+import logoSAMIC from '../../../img/logo-SAMIC.png';
+import './footer.css'
 
 function Footer() {
 

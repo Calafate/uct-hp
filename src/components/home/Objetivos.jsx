@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../styles/objetivos.css'
+import '../home/objetivos.css'
 import { faMicroscope, faBookMedical, faVialVirus } from '@fortawesome/free-solid-svg-icons';
 
 const Objetivos = () => {

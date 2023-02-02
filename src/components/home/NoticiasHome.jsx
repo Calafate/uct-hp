@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { noticiasList } from "../data/data";
+import { noticiasList } from "../../data/data";
 import { Link } from "react-router-dom";
-import "../styles/noticiasHome.css";
+import "../home/noticiasHome.css";
 
 const NoticiasHome = () => {
   const [blog, setBlog] = useState(noticiasList);

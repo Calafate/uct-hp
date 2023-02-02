@@ -1,9 +1,9 @@
 import React from 'react';
-import Menu from '../components/Menu';
-import Footer from '../components/Footer';
-import samic1 from '../img/samic1.jpg';
-import '../styles/contacto.css';
-import ScrollButton from '../components/ScrollButton';
+import Menu from '../../components/common/menu/Menu';
+import Footer from '../../components/common/footer/Footer';
+import samic1 from '../../img/samic1.jpg';
+import '../contacto/contacto.css';
+import ScrollButton from '../../components/common/scrollButton/ScrollButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 

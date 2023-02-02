@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import EmptyList from '../components/common/EmptyList';
-import Menu from '../components/Menu';
-import Footer from '../components/Footer';
-import BlogList from '../components/Noticias/BlogList';
-import SearchCategory from '../components/Noticias/SearchCategory';
-import { noticiasList } from '../data/data';
-import '../styles/noticias.css'
-import ScrollButton from '../components/ScrollButton';
+import EmptyList from '../../components/common/EmptyList';
+import Menu from '../../components/common/menu/Menu';
+import Footer from '../../components/common/footer/Footer';
+import BlogList from '../../components/Noticias/BlogList';
+import SearchCategory from '../../components/Noticias/SearchCategory';
+import { noticiasList } from '../../data/data';
+import '../noticias/noticias.css'
+import ScrollButton from '../../components/common/scrollButton/ScrollButton';
 
 
 const Noticias = () => {

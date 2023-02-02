@@ -1,7 +1,8 @@
 import React from "react";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
-import '../styles/links.css'
+import Menu from "../../components/common/menu/Menu";
+import Footer from "../../components/common/footer/Footer";
+import '../../pages/links/links.css'
+import ScrollButton from "../../components/common/scrollButton/ScrollButton";
 
 function Links() {
   return (
@@ -44,6 +45,7 @@ function Links() {
           </ul>
         </div>
       </div>
+      <ScrollButton />
       <Footer />
     </div>
   );
