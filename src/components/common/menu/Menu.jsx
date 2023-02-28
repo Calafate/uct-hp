@@ -58,11 +58,11 @@ function Menu() {
                 Links de Interés
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink to = "/Formacion" activeclassname="active" className="nav-link">
                 Formación
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink to = "/Contacto" activeclassname="active" className="nav-link">
                 Contacto

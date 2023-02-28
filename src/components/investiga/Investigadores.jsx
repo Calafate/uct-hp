@@ -53,7 +53,7 @@ const Investigadores = () => {
                 </div>
             </a>
         </div>
-        <div>
+        {/* <div>
             <div className="collapse" id="cvBruque">
                 <iframe src="assets/files/cv/cvBruque.pdf#toolbar=0"
                 type="application/pdf"
@@ -89,7 +89,7 @@ const Investigadores = () => {
                 width="80%"
                 height="400px"/>
             </div>
-        </div>
+    </div> */}
     </div>
     );
 };

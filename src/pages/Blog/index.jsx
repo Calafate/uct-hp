@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="container">
         {blog ? (
           <div className='blog-wrap'>
-            <div>
+            <div className="mt-5">
               <h2>{blog.title}</h2>
               <hr />
             </div>
