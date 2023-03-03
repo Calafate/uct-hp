@@ -17,7 +17,7 @@ const BlogItem = ({
       <h5 className="blogItem-title">{title}</h5>
       <div className="blogItem-date-category">
         <p className="text-start">{created}</p>
-        <p className="text-start">{category}</p>
+        <p className="text-start blogItem-category">{category}</p>
       </div>
       <img className='blogItem-cover' src={cover} alt='cover' />
       <p className='blogItem-desc'>{description}</p>

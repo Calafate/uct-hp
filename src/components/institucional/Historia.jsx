@@ -1,5 +1,5 @@
 import React from 'react';
-import historia from '../../img/historia.jpg'
+import historia from '../../img/historia.png'
 
 const Historia = () => {
   return (

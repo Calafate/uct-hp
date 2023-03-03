@@ -5,7 +5,6 @@ import '../../common/menu/menu.css'
 
 function Menu() {
 
-
   return (
     <>
     <nav className="navbar sticky-top navbar-expand-lg "
@@ -26,36 +25,36 @@ function Menu() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarContent">
-          <ul className="navbar-nav mb-2 mb-lg-0 ">
+        <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink to = "/Home" activeclassname="active" className="nav-link">
-                Home
+                <p>Home</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to = "/Institucional" activeclassname="active" className="nav-link">
-                Institucional
+                <p>Institucional</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to = "/Noticias" activeclassname="active" className="nav-link">
-                Noticias
+                <p>Noticias</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to = "/Investigacion" activeclassname="active" className="nav-link">
-                Investigación
+                <p>Investigación</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to = "/Diagnosticos" activeclassname="active" className="nav-link">
-                Diagnósticos
+                <p>Diagnósticos</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to = "/Links" activeclassname="active" className="nav-link">
-                Links de Interés
+                <p>Links de Interés</p>
               </NavLink>
             </li>
             {/* <li className="nav-item">
@@ -65,7 +64,7 @@ function Menu() {
             </li> */}
             <li className="nav-item">
               <NavLink to = "/Contacto" activeclassname="active" className="nav-link">
-                Contacto
+                <p>Contacto</p>
               </NavLink>
             </li>
           </ul>
