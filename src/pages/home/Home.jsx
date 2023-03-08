@@ -11,6 +11,7 @@ function Home() {
         <div>
             <Menu />
             <Carousel />
+            <h1>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</h1>
             <Objetivos />
             <NoticiasHome />
             <ScrollButton />

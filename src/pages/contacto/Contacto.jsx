@@ -13,6 +13,7 @@ function Contacto() {
     <div>
       <Menu />
       <div className="container">
+        <h4 className="mt-3">Unidad de Conocimiento Traslacional Hospitalaria Patagónica - Hospital de Alta Complejidad SAMIC El Calafate</h4>
         <div className="gridContacto-container mt-5">
           <div className="foto-container">
             <img className="foto-img" src={samic1} alt="foto hospital" />

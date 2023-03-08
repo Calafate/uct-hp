@@ -11,8 +11,8 @@ function Menu() {
       style={{ backgroundColor: "var(--main-color)" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <img src={logoUCT} className="d-inline-block align-text-top" alt="logo-UCT" style={{width: "100px", marginRight: "10px"}}/>
-          UCT HP
+          <img src={logoUCT} className="d-inline-block align-text-top" alt="logo-UCT-HP" style={{width: "100px", marginRight: "10px"}}/>
+          UCT-HP
         </a>
         <button
           className="navbar-toggler"
