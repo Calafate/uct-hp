@@ -94,11 +94,27 @@ export const noticiasList = [
   },
   {
     id: 11,
+    title: 'La UCT-HP obtuvo una beca para proyectos Individuales y Multicéntricos de la Convocatoria a las Becas Salud Investiga 2022-2023.',
+    category: 'redes',
+    description: 'Se trata de la creación e implementación de una red patagónica de atención, asesoramiento y diagnóstico genético para garantizar el acceso a la salud en el contexto de hospitales públicos generadores de conocimiento en las provincias de Rio Negro, Chubut y Santa Cruz./n El proyecto, presentado por el Dr. David Bruque apunta a generar protocolos de procedimientos para la coordinación de muestras y asesoramiento genético, evaluar pacientes inter-provinciales en forma remota y estudiar una cohorte de 200 pacientes y familiares en el marco de la investigación traslacional.',
+    created: '13/02/23',
+    cover: '/assets/images/noticias/130223.jpg',
+  },
+  {
+    id: 12,
     title: 'El Ministerio de Salud creó la Red Nacional De Unidades De Conocimiento Traslacional Hospitalarias (Red UCTH)',
     category: 'redes',
     description:
       "La Red de UCTH se creó mediante Resolución y estará bajo la órbita de la Dirección De Difusión Del Conocimiento dependiente de La Dirección Nacional De Talento Humano Y Conocimiento De La Subsecretaría De Calidad, Regulación y Fiscalización De La Secretaría de Calidad En Salud./n Objetivos de la Red:/n Consolidar un espacio estratégico e integrado de producción, cooperación, desarrollo de proyectos e intercambio de conocimiento en salud entre las Unidades de Conocimiento Traslacional Hospitalarias (UCTH) de los Hospitales y/o Servicio de Salud de la órbita del Ministerio de Salud de la Nación./n Fortalecer las vinculaciones entre dichas Unidades de Conocimiento Traslacional Hospitalarias (UCTH) mediante estrategias de integración en equipos interdisciplinarios orientados a los problemas prevalentes de cada región y territorio, sustentando los conocimientos técnicos con la responsabilidad ética puesta en la salud pública y comunitaria./n Impulsar procesos colaborativos en el abordaje de temáticas sanitarias prioritarias y en la implementación de resultados, con perspectiva federal y regional. • Promover proyectos colaborativos entre las UCTH, orientados a la resolución de problemas y fortaleciendo la capacidad de nuestros Hospitales y sus equipos como referentes estratégicos para la salud de nuestro país./n Facilitar la difusión, multiplicación y replicación de desarrollos innovadores y multidisciplinarios mediante la gestión del conocimiento en red./n Promover aprendizajes en red que estimulen perfiles innovadores en el sistema público de salud, que favorezcan el acceso al conocimiento y la capacitación continua de los equipos de salud.",
     created: '23/02/2023',
     cover: '/assets/images/noticias/230223.jpg',
+  },
+  {
+    id: 13,
+    title: '“Un país, una respuesta”, a tres años del primer caso de COVID',
+    category: 'redes',
+    description: 'El día 3 de marzo, en el Centro Cultural Kirchner se realizó el encuentro nacional a tres años del primer caso de COVID-19 en Argentina "UN PAIS, UNA RESPUESTA"/n El Dr. Guillermo Corró, investigador de la UCT-HP del SAMIC El Calafate, formó parte de la mesa "Protagonistas", moderada por la Dra. Analía Rearte, directora nacional de Epidemiología dentro del contexto de la red de genómica y bioinformática./n En la oportunidad, los profesionales intercambiaron experiencias vividas durante la pandemia, como la importancia de una salud pública con un accionar rápido, la necesidad de profesionales capacitados y de un sistema de salud fuerte, con capacidad de generar conocimientos y tecnologías de calidad, en un contexto público y federal. ',
+    created: '03/03/23',
+    cover: '/assets/images/noticias/030323.jpg',
   }
 ];

@@ -19,8 +19,8 @@ function Footer() {
                     <img src={logoUCTHP} alt="logo-UCT" style={{width: "190px"}} />
                     <img src={logoSAMIC} alt="logo-SAMIC" style={{width: "160px"}} />
                 </div>
-                <p>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</p>
-                <p>Hospital de Alta Complejidad de El Calafate SAMIC</p>
+                <h6>Unidad de Conocimiento Traslacional Hospitalaria Patagónica</h6>
+                <h6>Hospital de Alta Complejidad de El Calafate SAMIC</h6>
             </div>
             <div className="col-xs-12 col-md-6 col-lg-4">
                 <div className="sobre-nosotros">
