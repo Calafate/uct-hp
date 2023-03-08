@@ -29,7 +29,7 @@ function Menu() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink to = "/Home" activeclassname="active" className="nav-link">
-                <p>Home</p>
+                <p>Inicio</p>
               </NavLink>
             </li>
             <li className="nav-item">
