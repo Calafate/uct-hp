@@ -116,5 +116,13 @@ export const noticiasList = [
     description: 'El día 3 de marzo, en el Centro Cultural Kirchner se realizó el encuentro nacional a tres años del primer caso de COVID-19 en Argentina "UN PAIS, UNA RESPUESTA"/n El Dr. Guillermo Corró, investigador de la UCT-HP del SAMIC El Calafate, formó parte de la mesa "Protagonistas", moderada por la Dra. Analía Rearte, directora nacional de Epidemiología dentro del contexto de la red de genómica y bioinformática./n En la oportunidad, los profesionales intercambiaron experiencias vividas durante la pandemia, como la importancia de una salud pública con un accionar rápido, la necesidad de profesionales capacitados y de un sistema de salud fuerte, con capacidad de generar conocimientos y tecnologías de calidad, en un contexto público y federal. ',
     created: '03/03/23',
     cover: '/assets/images/noticias/030323.jpg',
+  },
+  {
+    id: 14,
+    title: 'Subsidios para la investigación de cáncer',
+    category: 'redes',
+    description: 'La UCT-HP participó del acto para la firma de las Actas Compromiso correspondientes al convenio institucional para la Asistencia Financiera Ed VII para la investigación en cáncer de origen nacional./n En la oportunidad, estuvieron presentes los directores de todos los subsidios adjudicados por el Instituto Nacional del Cáncer con el objetivo de apoyar y promover el desarrollo de proyectos de origen nacional que busquen generar nuevos conocimientos y desarrollos o implementaciones novedosas para la oncología argentina./n El encuentro fue presidido por la Dra. Verónica Pesce, directora nacional, la Dra. Susana Blanco, directora de Sistemas de Información y Gestión del Conocimiento, el equipo del Programa de Promoción de Investigación.',
+    created: '15/03/23',
+    cover: '/assets/images/noticias/150323.jpg',
   }
 ];
