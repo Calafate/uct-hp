@@ -19,9 +19,10 @@ const BlogItem = ({
         <p className="text-start">{created}</p>
         <p className="text-start blogItem-category">{category}</p>
       </div>
+      <Link className='blogItem-link' to={`/blog/${id}`}>
       <img className='blogItem-cover' src={cover} alt='cover' />
       <p className='blogItem-desc'>{description}</p>
-      <Link className='blogItem-link' to={`/blog/${id}`}>
+      
         <p>Seguir Leyendo</p>
       </Link>
     </div>
