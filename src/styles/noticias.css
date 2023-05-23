@@ -33,7 +33,6 @@
 .search-block {
     width: 21%;
     border: 1px solid rgb(165, 165, 165);
-    background-color:  rgba(77, 208, 225, 0.3);
 }
 @media (max-width: 768px) {
     .news-container {
