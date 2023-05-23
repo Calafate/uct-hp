@@ -1,0 +1,6 @@
+.active {
+    border-bottom: 1px solid black;
+}
+.nav-link p{
+    font-size: 18px;
+}

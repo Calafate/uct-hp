@@ -19,10 +19,10 @@ export const noticiasList = [
   },
   {
     id: 3,
-    title: 'La UCT participó en el Congreso Europeo de Genética Humana',
+    title: 'La UCT-HP participó en el Congreso Europeo de Genética Humana',
     category: 'divulgación',
     description:
-      "El equipo de la UCTHP – Unidad de Conocimiento Traslacional Hospitalaria Patagónica – presentó trabajos en el Congreso Europeo de Genética Humana relacionados a temas de diagnóstico e investigación en enfermedades cardiacas genéticas relacionadas a muerte súbita e Hipoacusias genéticas./n El equipo de la UCTHP – con sede en el Hospital SAMIC El Calafate e integrado por el Dr. Guillermo Corró, Tec. Mónica Paola Bellazzi y Dr. Carlos David Bruque- lleva adelante el proyecto relacionado con enfermedades genéticas relacionadas a muerte súbita./n Además, colabora activamente con el laboratorio de referencia de hipoacusias hereditarias a cargo de la Dra. Viviana Dalamón del Laboratorio de Fisiología y Genética de la Audición liderado por la Dra. Ana Belén Elgoyhen en el INGEBI-CONICET. El Dr. Bruque, director de la UCTHP, consideró que “estos trabajos están enmarcados dentro del contexto de la generación de conocimiento y de líneas en investigación traslacionales y diagnóstico molecular que no se realizaban hasta el momento en la región”./n Asimismo, agregó que “esta fue una oportunidad para mostrar a la comunidad científica internacional los trabajos realizados, las investigaciones llevadas adelante y los primeros pasos para la realización de diagnóstico genético molecular humana en Patagonia”.",
+      "El equipo de la UCT-HP – Unidad de Conocimiento Traslacional Hospitalaria Patagónica – presentó trabajos en el Congreso Europeo de Genética Humana relacionados a temas de diagnóstico e investigación en enfermedades cardiacas genéticas relacionadas a muerte súbita e Hipoacusias genéticas./n El equipo de la UCT-HP – con sede en el Hospital SAMIC El Calafate e integrado por el Dr. Guillermo Corró, Tec. Mónica Paola Bellazzi y Dr. Carlos David Bruque- lleva adelante el proyecto relacionado con enfermedades genéticas relacionadas a muerte súbita./n Además, colabora activamente con el laboratorio de referencia de hipoacusias hereditarias a cargo de la Dra. Viviana Dalamón del Laboratorio de Fisiología y Genética de la Audición liderado por la Dra. Ana Belén Elgoyhen en el INGEBI-CONICET. El Dr. Bruque, director de la UCT-HP, consideró que “estos trabajos están enmarcados dentro del contexto de la generación de conocimiento y de líneas en investigación traslacionales y diagnóstico molecular que no se realizaban hasta el momento en la región”./n Asimismo, agregó que “esta fue una oportunidad para mostrar a la comunidad científica internacional los trabajos realizados, las investigaciones llevadas adelante y los primeros pasos para la realización de diagnóstico genético molecular humana en Patagonia”.",
     created: '02/09/2021',
     cover: '/assets/images/noticias/020921.jpg',
   },
@@ -38,58 +38,91 @@ export const noticiasList = [
   },
   {
     id: 5,
-    title: 'La UCT- HP de El Calafate obtuvo reconocimiento oficial',
+    title: 'La UCT-HP de El Calafate obtuvo reconocimiento oficial',
     category: 'redes',
     description:
-      "La Unidad de Conocimiento Traslacional Hospitalaria Patagónica (UCT-HP) del Hospital SAMIC de El Calafate, obtuvo reconocimiento oficial mediante la  Resolución 3494/2021 publicada en Boletín Oficial el día 7 de diciembre del 2021./n Es un orgullo contar con una unidad de estas características en nuestro Hospital, donde se llevan a cabo tareas de investigación científica con enfoque traslacional, que tendrán un impacto inmediato en la Salud Pública y en cada uno de los pacientes que requieran de ello. Así, la creación de la UCT-HP, primer centro de su tipo en la provincia, es el escalón inicial hacia la federalización de la generación de conocimiento científico y la Salud Pública de calidad y complejidad, produciendo, de esta manera desarrollo científico y académico a nivel local, provincial y regional.",
+      "La Unidad de Conocimiento Traslacional Hospitalaria Patagónica (UCT-HP) del Hospital SAMIC de El Calafate, obtuvo reconocimiento oficial mediante la Resolución 3494/2021 publicada en Boletín Oficial el día 7 de diciembre del 2021./n  Con este logro, el Hospital de El Calafate avanza en el desarrollo de la investigación científica con enfoque traslacional, que tendrá un impacto inmediato en la Salud Pública y en cada uno de los pacientes que requieran de ello./n La creación de la UCT-HP, primer centro de su tipo en la provincia, es el escalón inicial hacia la federalización de la generación de conocimiento científico y la Salud Pública de calidad y complejidad, produciendo, de esta manera desarrollo científico y académico a nivel local, provincial y regional.",
     created: '13/12/2021',
     cover: '/assets/images/noticias/131221.jpg',
   },
   {
     id: 6,
-    title: 'Publicación de trabajo científico',
+    title: 'La UCT-HP publicó trabajo científico sobre genética ',
     category: 'divulgación',
     description:
-      "El día 7 de enero se publicó en el Journal Científico Scientific Reports, un trabajo realizado en conjunto entre el Laboratorio de Fisiología y Genética de la Audición INGEBI-CONICET y la Unidad de Conocimiento Traslacional Hospitalaria Patagónica (UCT-HP) del Hospital SAMIC de El Calafate, llevado a cabo por la Bioq. Paula Buonfiglio, el Dr. Carlos David Bruque, la Dra. Belen Elgoyhen y la Dra. Viviana Dalamon./n En el mismo, se realizaron estudios genéticos de última generación (Secuenciación Exómica Masiva) en una gran cohorte de pacientes argentinos con pérdida auditiva hereditaria, identificando variantes genéticas nuevas, así como un exhaustivo análisis sobre estructuras proteicas involucradas en la fisiopatología auditiva para poder predecir el impacto de esas mismas mutaciones. /n De ésta manera, los equipos de la UCT-HP comienzan a posicionar al Hospital SAMIC de El Calafate y a la Provincia de Santa Cruz en el campo del conocimiento traslacional, trabajando en conjunto con los profesionales de la salud para brindar respuesta a la comunidad, en este caso, relacionado a las enfermedades poco frecuentes para mejorar el diagnóstico./n Con el apoyo del Ministerio de Salud de la Nación, la Agencia Nacional de Promoción Científica y Tecnológica y el Ministerio de Ciencia y Tecnología, dentro del contexto de un plan nacional de investigación traslacional en salud para los hospitales, la UCT-HP, comienza a generar avances científicos en el contexto de una política sanitaria federal y de calidad./nLos objetivos de las UCTHs son articular la capacitación, producción de conocimientos e implementación de resultados basados en evidencias, con el fin de canalizar e institucionalizar los proyectos y actividades científico-técnicas que se correspondan con este campo del conocimiento en salud relacionados con la investigación traslacional.",
+      "El día 7 de enero se publicó en el Journal Científico Scientific Reports, un trabajo realizado en conjunto entre el Laboratorio de Fisiología y Genética de la Audición INGEBI-CONICET y la Unidad de Conocimiento Traslacional Hospitalaria Patagónica (UCT-HP) del Hospital SAMIC de El Calafate, llevado a cabo por la Bioq. Paula Buonfiglio, el Dr. Carlos David Bruque, la Dra. Belen Elgoyhen y la Dra. Viviana Dalamon./n En el mismo, se realizaron estudios genéticos de última generación (Secuenciación Exómica Masiva) en una gran cohorte de pacientes argentinos con pérdida auditiva hereditaria, identificando variantes genéticas nuevas, así como un exhaustivo análisis sobre estructuras proteicas involucradas en la fisiopatología auditiva para poder predecir el impacto de esas mismas mutaciones./n De esta manera, los equipos de la UCT-HP comienzan a posicionar al Hospital SAMIC de El Calafate y a la Provincia de Santa Cruz en el campo del conocimiento traslacional, trabajando en conjunto con los profesionales de la salud para brindar respuesta a la comunidad, en este caso, relacionado a las enfermedades poco frecuentes para mejorar el diagnóstico./n Con el apoyo del Ministerio de Salud de la Nación, la Agencia Nacional de Promoción Científica y Tecnológica y el Ministerio de Ciencia y Tecnología, dentro del contexto de un plan nacional de investigación traslacional en salud para los hospitales, la UCT-HP, comienza a generar avances científicos en el contexto de una política sanitaria federal y de calidad./n Los objetivos de las UCTHs son articular la capacitación, producción de conocimientos e implementación de resultados basados en evidencias, con el fin de canalizar e institucionalizar los proyectos y actividades científico-técnicas que se correspondan con este campo del conocimiento en salud relacionados con la investigación traslacional.",
     created: '10/01/2022',
     cover: '/assets/images/noticias/100122.jpg',
   },
   {
     id: 7,
-    title: 'AUTORIDADES PROVINCIALES EN EL HOSPITAL SAMIC',
+    title: 'Autoridades provinciales visitaron al SAMIC El Calafate',
     category: 'redes',
     description:
-      "Durante la jornada de hoy, recibimos autoridades del Ministerio de Salud y Ambiente de la Provincia de Santa Cruz junto a directores de hospitales provinciales que conocieron e hicieron un recorrido por nuestra institución./n Durante la misma, acompañamos a los referentes destacando la importancia de nuestra capacidad humana y tecnológica, visitando áreas como Kinesiología, Unidad de Conocimiento Traslacional (UCT), la sala de simulación y aulas de Docencia, entre otras. El Hospital SAMIC promueve el desarrollo y el trabajo en red, apostando a la salud pública.",
+      "En una comitiva encabezada por el ministro de Salud y Ambiente de la Provincia de Santa Cruz, Dr. Claudio García, directores de hospitales provinciales visitaron el hospital SAMIC El Calafate e hicieron un recorrido por sus instalaciones./n En el mismo, se destacó el equipamiento y espacio edilicio de la, Unidad de Conocimiento Traslacional (UCT) que recientemente comenzó a funcionar en el SAMIC./n En la oportunidad se resaltó la calidad de instalaciones destinadas a docencia e investigación, kinesiología y sala de simulación, entre otros servicios que crecen en capacidad humana y tecnológica y aportan a la construcción de una red pública en la atención de la salud.",
     created: '16/09/2022',
     cover: '/assets/images/noticias/160922.jpg',
   },
   {
     id: 8,
-    title: 'Vizzotti y Filmus participaron del acto de firma de adjudicación de investigación científica para el Hospital SAMIC junto a 8 hospitales nacionales',
+    title: 'UCT-HP Patagonia recibió aportes para investigación científica ',
     category: 'redes',
     description:
-      "Se trata de la convocatoria PICTO UCTH, que destinará la suma de $ 168.000.000 por el término de 24 meses para desarrollo de proyectos con el objetivo de fortalecer en los hospitales las capacidades de producción de conocimientos, formación, capacitación e implementación de resultados en los servicios de salud./n La ministra de Salud de la Nación, Carla Vizzotti, y su par de Ciencia, Tecnología e Innovación, Daniel Filmus, participaron ayer en el Hospital Nacional en Red Lic. Laura Bonaparte del acto de firma de adjudicaciones para los nueve hospitales que aplicaron a la convocatoria a Proyectos de innovación científico tecnológica para Unidades de Conocimiento Traslacional Hospitalarias (PICTO UCTH). Lic. Fernando Peirano, Presidente de la Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación. Dra. Carla Vizzotti, Ministra de Salud de la Nación. Daniel Filmus, Ministro de Ciencia, Tecnología e Innovación de la Nación. Dr. Guillermo Corró y Dr. Carlos David Bruque de la UCT HP del Hospital SAMIC. Dra. Verónica De Cristófaro, Subsecretaria de Articulación Federal en el Ministerio de Salud de la Nación.",
+      "A través de la convocatoria PICTO UCTH, el SAMIC El Calafate fue incluido en el programa cuyo objetivo es favorecer la investigación científica y tecnológica en el sistema nacional de salud a fin de generar un alto impacto en la calidad de atención de la salud y la práctica clínica hospitalaria./n Mediante la Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación (AGENCIA I+D+i), a través del Fondo para la Investigación Científica y Tecnológica (FONCyT), la convocatoria financiará proyectos de producción de conocimientos, formación, capacitación e implementación de resultados en los servicios de salud./n El acto de adjudicación, que incluyó a nueve hospitales nacionales y se realizó en el Hospital Nacional en Red Lic. Laura Bonaparte, fue encabezado por la ministra de Salud la Nación Cara Vizzoti y el ministro de Ciencia y Tecnología, Daniel Filmus./n /n Participaron del acto: Lic. Fernando Peirano, presidente de la Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación. Dra. Carla Vizzotti, ministra de Salud de la Nación. Daniel Filmus, ministro de Ciencia, Tecnología e Innovación de la Nación. Dr. Guillermo Corró y Dr. Carlos David Bruque de la UCT-HP del Hospital SAMIC. Dra. Verónica De Cristófaro, subsecretaria de Articulación Federal en el Ministerio de Salud de la Nación.",
     created: '23/08/2022',
     cover:
       '/assets/images/noticias/230822.jpg',
   },
   {
     id: 9,
-    title: 'El Hospital SAMIC El Calafate participó en la Reunión Anual de las Sociedades de Biociencias 2022',
+    title: 'UCT-HP Patagonia participó en la Reunión Anual de las Sociedades de Biociencias 2022',
     category: 'divulgación',
     description:
-      "El Dr. David Bruque y la Bioq. Romina Navarro UCT (Unidad de Conocimiento Traslacional) presentaron trabajos de investigación en la Reunión Anual de la Sociedad Argentina de Investigación Clínica que se realizó del 16 al 19 de noviembre en la ciudad de Mar del Plata. Los profesionales disertaron sobre ANÁLISIS GENÉTICO DE PACIENTES CON MÚLTIPLES ANOMALÍAS CONGÉNITAS Y CARDIOPATÍA CONGÉNITA AISLADA./n En la oportunidad, el Dr. Bruque fue nombrado Coordinador del Área de Genética Humana de la Sociedad Argentina de Investigación Clínica.",
+      "La UCT-HP Patagonia participó de la Reunión Anual de la Sociedad Argentina de Investigación Clínica que se realizó del 16 al 19 de noviembre en la ciudad de Mar del Plata./n En la oportunidad, el Dr. David Bruque y la Bioq. Romina Navarro UCT presentaron trabajos de investigación sobre análisis genético de pacientes con múltiples anomalías congénitas y cardiopatía congénita aislada./n En el marco de la Reunión Anual, el Dr. David Bruque fue nombrado Coordinador del Área de Genética Humana de la Sociedad Argentina de Investigación Clínica.",
     created: '24/11/2022',
     cover:
       '/assets/images/noticias/241122.jpg',
   },
   {
     id: 10,
-    title: 'El CONICET admitió como Investigadora en Salud a una médica de El Calafate',
+    title: 'Una médica de El Calafate ingresó al CONICET como Investigadora en Salud',
     category: 'divulgación',
     description:
-      "La Dra. Victoria Salgado es la jefa del Servicio de Medicina Familiar del hospital SAMIC. Para lograr ingresar a la carrera de investigadora en salud presentó un proyecto sobre cómo el etiquetado neutro en los paquetes de cigarrillos influye en la reducción de enfermedades relacionadas con el tabaco./n El trabajo analiza el efecto en la salud cardiovascular de las personas fumadoras, si los paquetes de los cigarrillos fueran neutros. Es decir que tengan  logotipos, colores, imágenes de marca o información promocional en el empaquetado. El marketing de tabaco es una herramienta estratégica utilizada para incentivar y naturalizar el consumo de tabaco, así como para promover la iniciación al consumo en niños, niñas y adolescentes. Y el paquete de cigarrillos es una pieza clave en este sentido./n El pasado jueves el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) le notificó a la Dra. Salgado que fue admitida en la carrera de Investigadora en Salud, una modalidad no rentada que le permite seguir trabajando en el Hospital SAMIC El Calafate, en el que cumple funciones como jefa del Servicio de Medicina Familiar.",
+      "La Dra. Victoria Salgado, integrante de la UCT-HP Patagónica, presentó un proyecto sobre el etiquetado neutro en los paquetes de cigarrillos. El objetivo de este cambio en el empaquetado apunta a reducir enfermedades relacionadas con el tabaco./n El trabajo analiza los efectos en el consumo si los paquetes de los cigarrillos no contaran con estrategias de marketing como logotipos, colores e imágenes de marca. Esta información promocional incentiva y naturaliza el consumo de tabaco a la vez que promueve la iniciación al consumo en niños, niñas y adolescentes./n Por la trascendencia de la investigación, el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) notificó su admisión a la Dra. Salgado quien continuará cumpliendo funciones como jefa del Servicio de Medicina Familiar en el Hospital de El Calafate.",
     created: '11/01/2023',
     cover: '/assets/images/noticias/110123.jpg',
+  },
+  {
+    id: 11,
+    title: 'La UCT-HP obtuvo una beca para proyectos Individuales y Multicéntricos de la Convocatoria a las Becas Salud Investiga 2022-2023.',
+    category: 'redes',
+    description: 'Se trata de la creación e implementación de una red patagónica de atención, asesoramiento y diagnóstico genético para garantizar el acceso a la salud en el contexto de hospitales públicos generadores de conocimiento en las provincias de Rio Negro, Chubut y Santa Cruz./n El proyecto, presentado por el Dr. David Bruque apunta a generar protocolos de procedimientos para la coordinación de muestras y asesoramiento genético, evaluar pacientes inter-provinciales en forma remota y estudiar una cohorte de 200 pacientes y familiares en el marco de la investigación traslacional.',
+    created: '13/02/23',
+    cover: '/assets/images/noticias/130223.jpg',
+  },
+  {
+    id: 12,
+    title: 'El Ministerio de Salud creó la Red Nacional De Unidades De Conocimiento Traslacional Hospitalarias (Red UCTH)',
+    category: 'redes',
+    description:
+      "La Red de UCTH se creó mediante Resolución y estará bajo la órbita de la Dirección De Difusión Del Conocimiento dependiente de La Dirección Nacional De Talento Humano Y Conocimiento De La Subsecretaría De Calidad, Regulación y Fiscalización De La Secretaría de Calidad En Salud./n Objetivos de la Red:/n Consolidar un espacio estratégico e integrado de producción, cooperación, desarrollo de proyectos e intercambio de conocimiento en salud entre las Unidades de Conocimiento Traslacional Hospitalarias (UCTH) de los Hospitales y/o Servicio de Salud de la órbita del Ministerio de Salud de la Nación./n Fortalecer las vinculaciones entre dichas Unidades de Conocimiento Traslacional Hospitalarias (UCTH) mediante estrategias de integración en equipos interdisciplinarios orientados a los problemas prevalentes de cada región y territorio, sustentando los conocimientos técnicos con la responsabilidad ética puesta en la salud pública y comunitaria./n Impulsar procesos colaborativos en el abordaje de temáticas sanitarias prioritarias y en la implementación de resultados, con perspectiva federal y regional. • Promover proyectos colaborativos entre las UCTH, orientados a la resolución de problemas y fortaleciendo la capacidad de nuestros Hospitales y sus equipos como referentes estratégicos para la salud de nuestro país./n Facilitar la difusión, multiplicación y replicación de desarrollos innovadores y multidisciplinarios mediante la gestión del conocimiento en red./n Promover aprendizajes en red que estimulen perfiles innovadores en el sistema público de salud, que favorezcan el acceso al conocimiento y la capacitación continua de los equipos de salud.",
+    created: '23/02/2023',
+    cover: '/assets/images/noticias/230223.jpg',
+  },
+  {
+    id: 13,
+    title: '“Un país, una respuesta”, a tres años del primer caso de COVID',
+    category: 'redes',
+    description: 'El día 3 de marzo, en el Centro Cultural Kirchner se realizó el encuentro nacional a tres años del primer caso de COVID-19 en Argentina "UN PAIS, UNA RESPUESTA"/n El Dr. Guillermo Corró, investigador de la UCT-HP del SAMIC El Calafate, formó parte de la mesa "Protagonistas", moderada por la Dra. Analía Rearte, directora nacional de Epidemiología dentro del contexto de la red de genómica y bioinformática./n En la oportunidad, los profesionales intercambiaron experiencias vividas durante la pandemia, como la importancia de una salud pública con un accionar rápido, la necesidad de profesionales capacitados y de un sistema de salud fuerte, con capacidad de generar conocimientos y tecnologías de calidad, en un contexto público y federal. ',
+    created: '03/03/23',
+    cover: '/assets/images/noticias/030323.jpg',
+  },
+  {
+    id: 14,
+    title: 'Subsidios para la investigación de cáncer',
+    category: 'redes',
+    description: 'La UCT-HP participó del acto para la firma de las Actas Compromiso correspondientes al convenio institucional para la Asistencia Financiera Ed VII para la investigación en cáncer de origen nacional./n En la oportunidad, estuvieron presentes los directores de todos los subsidios adjudicados por el Instituto Nacional del Cáncer con el objetivo de apoyar y promover el desarrollo de proyectos de origen nacional que busquen generar nuevos conocimientos y desarrollos o implementaciones novedosas para la oncología argentina./n El encuentro fue presidido por la Dra. Verónica Pesce, directora nacional, la Dra. Susana Blanco, directora de Sistemas de Información y Gestión del Conocimiento, el equipo del Programa de Promoción de Investigación.',
+    created: '15/03/23',
+    cover: '/assets/images/noticias/150323.jpg',
   }
 ];
