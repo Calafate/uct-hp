@@ -33,8 +33,7 @@ export const noticiasList = [
     description:
       "Se realizó un seminario de Abordaje genético-molecular de la hipoacusia hereditaria en la cohorte Argentina, llevado a delante por la Bioquímica Paula Inés Buonfiglio del laboratorio de fisiología y genética de la audición INGEBI-CONICET./n Dentro del contexto del desarrollo de la UCT-HP que se lleva adelante en el Hospital SAMIC y su inserción en una red de colaboración de entidades y profesionales en genética humana./n En la oportunidad, se presentó un estudio sobre hipoacusias genéticas y se brindaron ejemplos de investigación traslacional en el ámbito de la salud pública./n El Dr. David Bruque destacó que estas actividades de formación están acompañadas de diagnósticos moleculares e investigaciones traslacional que se están llevando a cabo en la región patagónica con el objetivo de acercar las nuevas tecnologías a la población para acortar tiempos de diagnóstico y tratamiento desde una mirada contextualizada de la medicina.",
     created: '21/10/2021',
-    cover:
-      '/assets/images/noticias/211021.jpg',
+    cover: '/assets/images/noticias/211021.jpg',
   },
   {
     id: 5,
@@ -56,35 +55,42 @@ export const noticiasList = [
   },
   {
     id: 7,
-    title: 'Autoridades provinciales visitaron al SAMIC El Calafate',
-    category: 'redes',
+    title: 'La UCT-HP cuenta con la primera Residencia en Investigación Traslacional del país',
+    category: 'formación',
     description:
-      "En una comitiva encabezada por el ministro de Salud y Ambiente de la Provincia de Santa Cruz, Dr. Claudio García, directores de hospitales provinciales visitaron el hospital SAMIC El Calafate e hicieron un recorrido por sus instalaciones./n En el mismo, se destacó el equipamiento y espacio edilicio de la, Unidad de Conocimiento Traslacional (UCT) que recientemente comenzó a funcionar en el SAMIC./n En la oportunidad se resaltó la calidad de instalaciones destinadas a docencia e investigación, kinesiología y sala de simulación, entre otros servicios que crecen en capacidad humana y tecnológica y aportan a la construcción de una red pública en la atención de la salud.",
-    created: '16/09/2022',
-    cover: '/assets/images/noticias/160922.jpg',
+      "El propósito de la creación de la Residencia en Investigación Traslacional es contribuir a la formación de Profesionales de la Salud en Investigación Traslacional. Dado que no existe en la actualidad una especialidad en Investigación Traslacional que pueda certificarse, el profesional será inscripto para optar por el Título de Doctor de la Universidad de Buenos Aires en una de las disciplinas que se desarrollan en la UCT-HP (Genética Humana, Virología, Inmunología, Oncología o Bioinformática)./n El egresado de la Residencia en Investigación Traslacional de la UCT-HP del Hospital Alta Complejidad El Calafate será un profesional que posea los conocimientos, destrezas y actitudes fundamentales que le permitan desarrollarse como Investigador en el ámbito de las Ciencias de la Salud. Será además un profesional con capacidad para integrar grupos interdisciplinarios de trabajo, para llevar adelante una adecuada vinculación de los ámbitos académicos y la práctica clínica. Tendrá el hábito y la necesidad de la formación profesional continua como forma de actualización para ofrecer la alternativa más apropiada a cada desafío./n Los residentes de investigación traslacional tendrán las actividades propias de un estudiante de Doctorado, sumado a una serie de cursos y rotaciones que perfilarán al residente como investigador traslacional, permitiéndole desarrollar las cualidades para realizar Investigación Traslacional en Salud en el ámbito hospitalario. Se coordinará al menos una rotación externa (ya sea en el exterior o en el país) para afianzar las habilidades teóricas, técnicas y académicas del residente.",
+    created: '30/03/2022',
+    cover: '/assets/images/noticias/300322.jpg',
   },
   {
     id: 8,
+    title: 'Nodo de la Red Federal de Genómica y Bioinformática',
+    category: 'redes',
+    description:
+      "Nuestra UCT, fue uno de los 5 centros elegidos para albergar un secuenciador de última generación illumina MiSeq pertenecientes a esta red federal. La UCT-HP es uno de los pocos centros del país con profesionales capaces de realizar secuenciación genómica y análisis bioinformáticos, razón que fundamenta la elección de nuestro Hospital como nodo de dicha red. Otros 24 laboratorios, representando las 24 jurisdicciones provinciales fueron equipados con secuenciadores portátiles y también forman parte de la red. Cabe destacar que, tanto los secuenciadores MiSeq distribuidos en laboratorios, como los 24 equipos portátiles que van a todas las jurisdicciones, fueron adquiridos con los fondos provenientes del “Impuesto solidario a las grandes fortunas”./n Esta red tiene como objetivo desarrollar en todo el país la capacidad estructural y tecnológica para la generación de datos genómicos, junto con la capacitación a los recursos humanos, a los fines de contribuir con la generación de información relevante para la toma de decisiones en el marco de una salud integral./n El equipamiento entregado por el ANLIS-Malbrán comprende tecnología de secuenciación de nueva generación con la cual se puede conocer la secuencia genética de microrganismos (virus, bacterias o cualquier otro organismo) presentes en una amplia variedad de muestras (humanas, animales, alimentarias, de medio ambiente).",
+    created: '09/08/2022',
+    cover: '/assets/images/noticias/090822.jpg',
+  },
+  {
+    id: 9,
     title: 'UCT-HP Patagonia recibió aportes para investigación científica',
     category: 'redes',
     description:
       "A través de la convocatoria PICTO UCTH, La UCT-HP fue reconocida por el programa cuyo objetivo es favorecer la investigación científica y tecnológica en el sistema nacional de salud a fin de generar un alto impacto en la calidad de atención de la salud y la práctica clínica hospitalaria./n Mediante la Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación (AGENCIA I+D+i), a través del Fondo para la Investigación Científica y Tecnológica (FONCyT), la convocatoria financiará el proyecto presentado por los investigadores e integrantes de la UCT-HP bajo la dirección del Dr. Guillermo Corró, cuyo objetivo es el estudio genómico e inmunológico de pacientes con respuestas diversas a la vacunación con el fin último de generar nuevas fórmulas vacunales contra beta-coronavirus. Este tipo de proyectos de producción de conocimientos, formación, capacitación e implementación de resultados en los servicios de salud son imprescindibles para la continuidad de una práctica clínica de alta complejidad y una visión de Salud Pública de excelencia. /n El acto de adjudicación, que incluyó a nueve hospitales nacionales y se realizó en el Hospital Nacional en Red Lic. Laura Bonaparte, fue encabezado por la ministra de Salud de la Nación Carla Vizzoti y el ministro de Ciencia y Tecnología, Daniel Filmus./n Epígrafe:  Lic. Fernando Peirano, presidente de la Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación. Dra. Carla Vizzotti, ministra de Salud de la Nación. Daniel Filmus, ministro de Ciencia, Tecnología e Innovación de la Nación. Dr. Guillermo Corró y Dr. Carlos David Bruque de la UCT HP del Hospital SAMIC. Dra. Verónica De Cristófaro, subsecretaria de Articulación Federal en el Ministerio de Salud de la Nación.",
     created: '23/08/2022',
-    cover:
-      '/assets/images/noticias/230822.jpg',
+    cover: '/assets/images/noticias/230822.jpg',
   },
   {
-    id: 9,
+    id: 10,
     title: 'UCT-HP Patagonia participó en la Reunión Anual de las Sociedades de Biociencias 2022',
     category: 'divulgación',
     description:
       "La UCT-HP Patagonia participó de la Reunión Anual de la Sociedad Argentina de Investigación Clínica que se realizó del 16 al 19 de noviembre en la ciudad de Mar del Plata./n Los investigadores del área de genética presentaron “Genéticos moleculares y bioinformáticos en pacientes con antecedentes familiares de muerte súbita”, mientras que los investigadores del área de Inmunología y Virología Molecular presentaron el estudio sobre la inmunización pasiva contra la proteína Nef del VIH-1 en niños infectados verticalmente, y la relación con la progresión a SIDA./n En la oportunidad, el Dr. Bruque fue nombrado Coordinador del Área de Genética Humana de la Sociedad Argentina de Investigación Clínica para el período 2022-2023.",
     created: '24/11/2022',
-    cover:
-      '/assets/images/noticias/241122.jpg',
+    cover: '/assets/images/noticias/241122.jpg',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Una médica de El Calafate ingresó al CONICET como Investigadora en Salud',
     category: 'divulgación',
     description:
@@ -93,15 +99,23 @@ export const noticiasList = [
     cover: '/assets/images/noticias/110123.jpg',
   },
   {
-    id: 11,
+    id: 12,
+    title: 'La UCT-HP recibió a la primera becaria doctoral',
+    category: 'formación',
+    description: 'Como parte de un programa de colaboración científica entre investigadores de la UCT-HP con el equipo de la Dra. Betina Orman de la Facultad de Odontología de la UBA, la Odon. Angélica Castro Escalante realizó una etapa de formación en el contexto de su tesis doctoral en las instalaciones del Servicio de Diagnóstico Molecular de la UCT-HP./n De esta manera, UCT-HP y el Hospital en su conjunto, recibieron por primera vez un estudiante de doctorado. La profesional se insertó en un programa de formación dirigido por los profesionales e investigadores de la UCT, Téc Esp. M.P. Bellazzi, la Bioq. R. Navarro, el Dr. C.D. Bruque y el Dr. G. Corró. La formación se continúa luego en forma virtual, manteniendo las colaboraciones y vinculaciones tecnológicas con el equipo de la Dra Orman, fortaleciendo así, los lazos con la Universidad de Buenos Aires./n La formación de recursos humanos, bajo el entramado de redes de colaboración son uno de los pilares de la tarea de Investigación en todas sus formas. ',
+    created: '04/01/2023',
+    cover: '/assets/images/noticias/040123.jpg',
+  },
+  {
+    id: 13,
     title: ' La UCTHP Obtuvieron becas en la categoría Multicéntricos de la Convocatoria a las Becas Salud Investiga 2022-2023',
     category: 'redes',
     description: 'Se trata de la creación e implementación de una red patagónica de atención, asesoramiento y diagnóstico genético para garantizar el acceso a la salud en el contexto de hospitales públicos generadores de conocimiento en la región patagónica./n El proyecto, presentado desde la UCTHP apunta a generar protocolos de procedimientos para la coordinación de muestras y asesoramiento genético, evaluar pacientes inter-provinciales en forma remota y estudiar una cohorte de 200 pacientes y familiares en el marco de la investigación traslacional.',
-    created: '13/02/23',
+    created: '13/02/2023',
     cover: '/assets/images/noticias/130223.jpg',
   },
   {
-    id: 12,
+    id: 14,
     title: 'El Ministerio de Salud creó la Red Nacional De Unidades De Conocimiento Traslacional Hospitalarias (Red UCTH)',
     category: 'redes',
     description:
@@ -110,19 +124,46 @@ export const noticiasList = [
     cover: '/assets/images/noticias/230223.jpg',
   },
   {
-    id: 13,
+    id: 15,
     title: '“Un país, una respuesta”, a tres años del primer caso de COVID',
     category: 'redes',
     description: 'El día 3 de Marzo, en el Centro Cultural Kirchner (CCK) de la Ciudad de Buenos Aires, se realizó un encuentro federal, por cumplirse 3 años de la detección del primer caso de SARS-CoV-2 en Argentina, bajo el lema: "UN PAIS, UNA RESPUESTA". Esta jornada, coordinada por el Ministerio de Salud de la Nación, contó con la presencia de ministros y representantes de todas las provincias, así como la Ministra de Salud de la Nación, Dra. Carla Vizzotti, Secretario de Calidad, Dr. Alejandro Collia y otras autoridades Nacionales. El Cierre estuvo a cargo del Sr Presidente de la Nación, Dr. Alberto Fernández. /n En el contexto de éste lema, cada mesa temática, abordó las vivencias de la pandemia desde distintos puntos de vista, así se discutió sobre la capacidad de respuesta de nuestro país a nivel sanitario y de emergencias, tanto desde el sector público como del sector privado, haciendo hincapié en la articulación entre ambos sectores. /n El Dr. Guillermo Corró, investigador de la UCT-HP del SAMIC El Calafate, formó parte de la mesa "Protagonistas", moderada por la Dra Analía Rearte, Directora Nacional de Epidemiología. El mismo contó experiencias vividas durante la pandemia, la importancia de una salud pública con un accionar rápido en la pandemia, la necesidad de profesionales capacitados y de un sistema de salud fuerte. Explicó el valor de contar con capacidad de generar conocimientos y tecnologías de calidad, en un contexto público y federal, siendo el principal fuerte durante la primera fase de la pandemia, cuando un diagnóstico a tiempo hacía la diferencia en cuanto a las medidas epidemiológicas. Asimismo, remarcó la necesidad de capitalizar la pandemia en la generación de políticas novedosas, y en este sentido, introdujo el interés por la pertenencia de la UCT-HP del Hospital SAMIC de EL Calafate a dos redes nacionales y federales de creación post pandemia, la Red Nacional de Genómica y Bioinformática, con centro en el ANLIS-Malbran, bajo la dirección de la Dra Josefina Campos, y la Red Nacional de Unidades de Conocimiento Traslacional, con centro en la Dirección de Difusión del Conocimiento del Ministerio de Salud de la Nación, cuya coordinación realiza la Mg Daniela Álvarez. A través de dichas redes, hoy, la generación de conocimientos en Salud, el alcance de la tecnología de última generación y la Salud Pública de calidad llegan a los puntos más alejados del AMBA de forma Federal.',
-    created: '03/03/23',
+    created: '03/03/2023',
     cover: '/assets/images/noticias/030323.jpg',
   },
   {
-    id: 14,
+    id: 16,
     title: 'UCT-HP recibió otro subsidio para investigación científica',
     category: 'redes',
     description: 'A través de la convocatoria “ASISTENCIA FINANCIERA VII A PROYECTOS DE INVESTIGACIÓN EN CÁNCER DE ORIGEN NACIONAL” del Instituto Nacional del Cáncer, la UCT-HP volvió a ser reconocida, recibiendo un subsidio de $8.000.000 para llevar a cabo el proyecto “Caracterización genómica de biopsias de cáncer de mama de pacientes de la Patagonia Austral para el estudio de perfiles moleculares: correlación con variables epidemiológicas, de ancestría y de progresión tumoral”./n El proyecto fue presentado por los investigadores e integrantes de la UCT-HP bajo la dirección del Dr. Facundo Pelorosso, cuyo objetivo es el estudio genómico y de ancestría de tumores de mama, consistirá en un aporte de gran valía en el abordaje de pacientes con dicha patología en nuestra región. Este tipo de proyectos de producción de conocimientos, formación, capacitación e implementación de resultados en los servicios de salud son imprescindibles para la continuidad de una práctica clínica de alta complejidad y una visión de Salud Pública de excelencia.',
-    created: '15/03/23',
+    created: '15/03/2023',
     cover: '/assets/images/noticias/150323.jpg',
+  },
+  {
+    id: 17,
+    title: 'Primera Jornada de Investigación en Disparidades en Salud',
+    category: 'divulgación',
+    description:
+      "La Dra. María Victoria Salgado participó como disertante de la 1º Jornada de Investigación en Disparidades en Salud, realizada el 17 de marzo en la Ciudad de Buenos Aires./n En esa oportunidad, presentó los resultados de un trabajo de investigación que evalúa la contribución de los factores de riesgo cardiovascular tradicionales en el riesgo de desarrollar enfermedad coronaria en comparación con factores no tradicionales ligados al estatus socioeconómico en Argentina, y brindó una charla introductoria sobre qué son y para qué sirven los modelos de simulación por computadora en la investigación en salud pública.",
+    created: '17/03/2023',
+    cover: '/assets/images/noticias/170323.jpg',
+  },
+  {
+    id: 18,
+    title: 'Encuentro Federal de Talento Humano en Salud “Día Internacional de la Enfermería”',
+    category: 'divulgación',
+    description:
+      "El día 12 de mayo, profesionales de la salud de todo el país se reunieron en el Encuentro Federal de Talento Humano en Salud realizado en el Hospital de Pediatría “Prof Dr Juan P Garrahan” SAMIC conmemorando el Día Internacional de la Enfermería En éste contexto, la Licenciada en Enfermeria Sabrina Soledad Fernández discutió sobre el rol de los profesionales de enfermería en el campo de la Investigación Traslacional, exponiendo las experiencias en los distintos proyectos que se están llevando adelante desde la UCTHP, en la mesa redonda “Gestión del Conocimiento: Redes, interdisciplina y abordajes innovadores del conocimiento en salud.” Experiencias de los equipos que integran el Plan Nacional de Investigación Traslacional (Avances y Desafíos). Junto a ella, profesionales de otras jurisdicciones y autoridades del Ministerio de Salud de la Nación, interpelaron a los enfermeros en su día a sumarse en tareas de investigación y desarrollo en los Hospitales, remarcando el irremplazable aporte que su labor como trabajadores de la Salud implica.",
+    created: '12/05/2023',
+    cover: '/assets/images/noticias/120523.jpg',
+  },
+  {
+    id: 19,
+    title: 'El Test de Sudor se vuelve a realizar en la provincia de Santa Cruz',
+    category: 'diagnóstico',
+    description:
+      "El Servicio de Diagnóstico Molecular de la UCT-HP del Hospital El Calafate SAMIC comenzó a realizar estudios de test de sudor en la provincia de Santa Cruz./n Hace ya varios años, este diagnóstico se había dejado de realizar en la provincia./n Desde el mes de mayo en el hospital se vuelve a tener esta técnica diagnóstica para los pacientes con sospecha de fibrosis quística, de esta forma no serán necesarias las derivaciones a CABA para estos estudios./n La realización del test en nuestras instalaciones se logró gracias a la capacitación de Paola Bellazzi, Técnica Especialista en Biología Molecular y Genética, quien recibió formación del equipo del centro Nacional de Genética Médica del ANLIS-Malbrán, haciendo de nuestro laboratorio, la referencia de la provincia para dicho test.",
+    created: '19/05/2023',
+    cover: '/assets/images/noticias/190523.jpg',
   }
 ];
